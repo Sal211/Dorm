@@ -1,0 +1,562 @@
+﻿<style>
+    div.dataTables_wrapper div.dataTables_length select {
+        width: 50%;
+        display: inline-block;
+    }
+
+    table tbody tr.selected td {
+        background-color: gray !important;
+        color: #fff;
+    }
+
+    table tbody td:last-child {
+        text-align: center;
+    }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h5>
+                Customer Profile
+            </h5>
+        </div>
+    </div>
+    <hr />
+    <div class="row ">
+        <div class="col-sm-12 ">
+            <button class="btn btn-outline-info" data-target="#idfrmcustomer" data-toggle="modal" id="add">Add Customer</button>
+        </div>
+    </div>
+    <hr />
+    <div class="table-responsive ">
+        <div class="row">
+            <div class="col-sm-12 ">
+                <table class=" table table-striped table-bordered nowrap" style="width:100%" id="tbcustomer">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Customer Type</th>
+                            <th>Customer Name</th>
+                            <th>Contact Number</th>
+                            <th>Email</th>
+                            <th>Command</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+</div>
+@*MOdal Insert*@
+<div class="modal fade" id="idfrmcustomer" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Create Customer Profile</h5>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validate" novalidate>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span>Customer ID : </span>
+                            <input type="text" class="form-control" id="cusid" required />
+                            <div class="invalid-feedback">
+                                Please Input Customer ID !!!
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <span>Customer Name</span>
+                            <input type="text" class="form-control" id="cusname" />
+                            <div class="invalid-feedback">
+                                Please Input Customer Name!!!
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <span>Customer Type</span>
+                            <select class="form-control" id="custype">
+                                <option value="1">SID</option>
+                                <option value="0">SIF</option>
+                            </select>
+                        </div>
+                        <hr / class="mt-2">
+                        <div class="col-sm-6 " style="border-right : 1px solid gray">
+                            <h5 class="text-center">Student Information</h5>
+                             <span>Contact Number : </span>
+                            <div class="input-group  ">
+                                <span class="input-group-text"  >+855</span>
+                                <input type="text" class="form-control"   id="contact">
+                            </div>
+                            <span>DOB :</span>
+                            <input type="date" class="form-control" id="dob" required />
+                            <div class="invalid-feedback">
+                                Please Input DOB!!!
+                            </div>
+
+                            <span>Email:</span>
+                            <input type="text" class="form-control " id="email" required />
+                            <div class="invalid-feedback">
+                                Please Input Email!!!
+                            </div>
+
+                            <span>Address :</span>
+                            <div class="mt-3">
+                                <textarea id="address" cols="29" rows="4" class="form-control" required></textarea>
+                            </div>
+                            <div class="invalid-feedback">
+                                Please Input Address!!!
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="text-center">Guardian Information</h5>
+                            <span>Guardian Name :</span>
+                            <input type="text" class="form-control" id="guar_name" required />
+                            <div class="invalid-feedback">
+                                Please Input Guardian Name!!!
+                            </div>
+                            <span>Contact Number : </span>
+                            <div class="input-group ">
+                                <span class="input-group-text"  >+855</span>
+                                <input type="text" class="form-control" id="guar_contact">
+                            </div>
+                           
+
+                            <span>Relation with tenant:</span>
+                            <input type="text" class="form-control " id="guar_relation" required />
+                            <div class="invalid-feedback">
+                                Please Input Relation with tenant!!!
+                            </div>
+
+                            <span>Address :</span>
+                            <div class="mt-3">
+                                <textarea id="guar_address" cols="29" rows="4" class="form-control" required></textarea>
+                            </div>
+                            <div class="invalid-feedback">
+                                Please Input Address!!!
+                            </div>                         
+                        </div>
+                    </div>
+                    <hr />
+                  
+                    <button type="submit" class="btn btn-primary close-modal">Save </button>
+                    <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal" id="close">Close</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@*MOdal Update*@
+<div class="modal fade" id="idfrmcustomer_update" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Edit Customer Profile</h5>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validate-update" novalidate>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span>Customer ID : </span>
+                            <input type="text" class="form-control" id="ucusid" readonly />
+                             
+                        </div>
+                        <div class="col-sm-4">
+                            <span>Customer Name</span>
+                            <input type="text" class="form-control" id="ucusname" />
+                            <div class="invalid-feedback">
+                                Please Input Customer Name!!!
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <span>Customer Type</span>
+                            <select class="form-control" id="ucustype">
+                                <option value="1">SID</option>
+                                <option value="0">SIF</option>
+                            </select>
+                        </div>
+                        <hr / class="mt-2">
+                        <div class="col-sm-6 " style="border-right : 1px solid gray">
+                            <h5 class="text-center">Student Information</h5>
+                            <span>Contact Number : </span>
+                            <div class="input-group  ">
+                                <span class="input-group-text">+855</span>
+                                <input type="text" class="form-control" id="ucontact">
+                            </div>
+                            <span>DOB :</span>
+                            <input type="date" class="form-control" id="udob" required />
+                            <div class="invalid-feedback">
+                                Please Input DOB!!!
+                            </div>
+
+                            <span>Email:</span>
+                            <input type="text" class="form-control " id="uemail" required />
+                            <div class="invalid-feedback">
+                                Please Input Email!!!
+                            </div>
+
+                            <span>Address :</span>
+                            <div class="mt-3">
+                                <textarea id="uaddress" cols="29" rows="4" class="form-control" required></textarea>
+                            </div>
+                            <div class="invalid-feedback">
+                                Please Input Address!!!
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="text-center">Guardian Information</h5>
+                            <span>Guardian Name :</span>
+                            <input type="text" class="form-control" id="uguar_name" required />
+                            <div class="invalid-feedback">
+                                Please Input Guardian Name!!!
+                            </div>
+                            <span>Contact Number : </span>
+                            <div class="input-group ">
+                                <span class="input-group-text">+855</span>
+                                <input type="text" class="form-control" id="uguar_contact">
+                            </div>
+
+
+                            <span>Relation with tenant:</span>
+                            <input type="text" class="form-control " id="uguar_relation" required />
+                            <div class="invalid-feedback">
+                                Please Input Relation with tenant!!!
+                            </div>
+
+                            <span>Address :</span>
+                            <div class="mt-3">
+                                <textarea id="uguar_address" cols="29" rows="4" class="form-control" required></textarea>
+                            </div>
+                            <div class="invalid-feedback">
+                                Please Input Address!!!
+                            </div>
+                        </div>
+                    </div>
+
+                     <hr />
+                    <button type="submit" class="btn btn-primary close-modal">Save </button>
+                    <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal" id="close">Close</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@* MOdal Detail*@
+<div class="modal fade" id="idfrmcustomer_datail" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Edit Customer Profile</h5>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validate-update" novalidate>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span>Customer ID : </span>
+                            <input type="text" class="form-control" id="dcusid" readonly />
+
+                        </div>
+                        <div class="col-sm-4">
+                            <span>Customer Name</span>
+                            <input type="text" class="form-control" id="dcusname" readonly />
+                             
+                        </div>
+                        <div class="col-sm-4">
+                            <span>Customer Type</span>
+                            <input type="text" id="dcustype" class="form-control" readonly />
+                        </div>
+                        <hr / class="mt-2">
+                        <div class="col-sm-6 " style="border-right : 1px solid gray">
+                            <h5 class="text-center">Student Information</h5>
+                            <span>Contact Number : </span>
+                            <div class="input-group  ">
+                                <span class="input-group-text">+855</span>
+                                <input type="text" class="form-control" id="dcontact" readonly>
+                            </div>
+                            <span>DOB :</span>
+                            <input type="text" class="form-control" id="ddob" readonly />
+                             
+
+                            <span>Email:</span>
+                            <input type="text" class="form-control " id="demail" readonly />
+                          
+                            <span>Address :</span>
+                            <div class="mt-3">
+                                <textarea id="daddress" cols="29" rows="4" class="form-control" readonly></textarea>
+                            </div>
+                            
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="text-center">Guardian Information</h5>
+                            <span>Guardian Name :</span>
+                            <input type="text" class="form-control" id="dguar_name" readonly />
+                             
+                            <span>Contact Number : </span>
+                            <div class="input-group ">
+                                <span class="input-group-text">+855</span>
+                                <input type="text" class="form-control" id="dguar_contact" readonly>
+                            </div>
+
+
+                            <span>Relation with tenant:</span>
+                            <input type="text" class="form-control " id="dguar_relation" readonly />
+                         
+
+                            <span>Address :</span>
+                            <div class="mt-3">
+                                <textarea id="dguar_address" cols="29" rows="4" class="form-control" readonly></textarea>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <hr />
+                    <button type="submit" class="btn btn-primary close-modal">Save </button>
+                    <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal" id="close">Close</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Alert Success*@
+<div class="modal fade" id="msg-success" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-check" style="font-size: 50px; color: green;"></i></div>
+                <div style="font-size: 20px; color: green;">SUCCESS!</div>
+                <p style="font-size: 14px;">You Have Added Successfully!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Alert Edit*@
+<div class="modal fade" id="msg-edit" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-pen-to-square" style="font-size: 50px; color : green;"></i></div>
+                <div style="font-size: 20px; color : green;">SUCCESS!</div>
+                <p style="font-size: 14px">You Have Edited Successfully!</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Ok</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+@* Alert delete*@
+<div class="modal fade" id="msg-delete" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-exclamation" style="font-size: 50px; color: red;"></i></div>
+                <div style="font-size: 20px; color: red;">Are you Sure!</div>
+                <p style="font-size: 14px;">Do you really want to delete this record!</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger " id="delete">Delete</button>
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal" id="cancel">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+ 
+<script type="text/javascript">
+    // Data Table
+    var Roomdata = []
+    $('#tbcustomer').DataTable({
+        data: Roomdata,
+        columns: [
+            {
+                render: function (data, type, full, meta) { return meta.row + 1; }
+            },
+            { data: "str_custype" },
+            { data: "studentname" },
+            { data: "contactnumber", render: function (data) { return  '+855' + data } },
+            { data: "email" },
+            {
+                render: function (data, type, full) {
+                    return '<a href="#" onclick="remove(' + full.studentid + ')"><i class="fa fa-trash" style="color: red;"></i></a>' +
+                        '<a href="#" class="edit"><i class="fa-solid fa-pen-to-square" style="color: green; margin-left: 8px;"></i></a>' +
+                        '<a href="#" class="detail"><img src="/img/detail.png" style="width: 17px;margin-left: 8px; "/></a>';
+                }
+            },
+
+        ]
+    });
+    var table = $('#tbcustomer').DataTable();
+    var id = 0;
+    var cusid = 0;
+   
+    // close
+    function close(name) {
+        $('.close-modal').each(function () {
+            $(this).click(() => {
+                id = 0;
+                $(name).modal('hide');
+            });
+        });
+    }
+  // Detail
+    $('#tbcustomer').on('click', '.detail', function () {
+        var a = $(this).parent().parent();
+        console.log(a)
+        var index = table.row(a).index()
+        var data = table.row(index).data();
+        close('#idfrmcustomer_datail')
+        $('#idfrmcustomer_datail').modal('show');
+
+        $('#dcusid').val(data.studentid)
+        $('#dcusname').val(data.studentname)
+        $('#dcustype').val(data.str_custype)
+        $('#dcontact').val(data.contactnumber);
+        $('#ddob').val(data.dob);
+        $('#demail').val(data.email);
+        $('#daddress').val(data.address);
+            
+        $('#dguar_name').val(data.guardianname)
+        $('#dguar_contact').val(data.guardiancontact)
+        $('#dguar_relation').val(data.guardianrelation);
+        $('#dguar_address').val(data.guardianaddress);
+    })
+
+    // Get Data
+    getdata();
+    function getdata() {
+        $.ajax({
+            url: '@Url.Action("GetCustomer", "Customer")',
+            type: "GET",
+            dataType: "JSON",
+            success: function (data) {
+                console.log(data);
+                Roomdata = data.clsCustomers;
+                table.clear().rows.add(Roomdata).draw();
+
+            }
+        })
+
+    }
+    // Delete Data
+
+    function remove(roomid) {
+        $('#msg-delete').modal('show');
+        id = roomid
+        close('#msg-delete');
+        $('#delete').click(() => {
+            $.post('@Url.Action("DeleteCustomer", "Customer")', { id: id }, data => {
+                if (data.errcode == 1) {
+                    $('#cancel').trigger("click")
+                    getdata();
+                }
+            });
+         });
+    }
+    // click bg
+    $('#tbcustomer').on('click', 'tr', function () {
+        $(this).toggleClass('selected');
+        $('#tbcustomer tr').not(this).removeClass('selected');
+    });
+
+    // Edit
+    $('#tbcustomer').on('click', '.edit', function () {
+        var a = $(this).parent().parent();
+        console.log(a)
+        var index = table.row(a).index()
+        var data = table.row(index).data();
+        close('#idfrmcustomer_update')
+        $('#idfrmcustomer_update').modal('show');
+        
+        $('#ucusid').val(data.studentid)
+        $('#ucusname').val(data.studentname)
+        $('#ucustype').val(data.customertype)
+        $('#ucontact').val(data.contactnumber);
+  
+        $('#udob').val(data.formatdob);
+        $('#uemail').val(data.email);
+        $('#uaddress').val(data.address);
+ 
+        $('#uguar_name').val(data.guardianname)
+        $('#uguar_contact').val(data.guardiancontact)
+        $('#uguar_relation').val(data.guardianrelation);
+        $('#uguar_address').val(data.guardianaddress);
+         
+    })
+
+    // Post
+    var objcustomer = {}
+    $('.needs-validate').submit(function (event) {
+        event.preventDefault();
+        if (this.checkValidity() === false) {
+            event.stopPropagation();
+        } else {
+            objcustomer = {}
+            objcustomer.customertype = $('#custype').val()
+            objcustomer.studentname =  $('#cusname').val();
+            objcustomer.address =  $('#address').val();
+            objcustomer.contactnumber = $('#contact').val();
+            objcustomer.dob = $('#dob').val();
+            objcustomer.email = $('#email').val();
+            objcustomer.studentid = $('#cusid').val();
+            objcustomer.guardianname = $('#guar_name').val()
+            objcustomer.guardianaddress = $('#guar_address').val()
+            objcustomer.guardiancontact = $('#guar_contact').val()
+            objcustomer.guardianrelation = $('#guar_relation').val()
+            $.post('@Url.Action("PostCustomer", "Customer")', { obj: objcustomer },
+                data => {
+                    if (data.errcode === 1) {
+                        $('#close').trigger('click')
+                        $('#msg-success').modal('show');
+                        getdata();
+                        close('#msg-success');
+                        $('.needs-validate')[0].reset();
+                    }
+                });
+         }
+        $(this).addClass('was-validated');
+    });
+    //update
+    $('.needs-validate-update').submit(function (event) {
+        event.preventDefault();
+        if (this.checkValidity() === false) {
+            event.stopPropagation();
+        } else {
+            alert(1)
+            objcustomer = {}
+            objcustomer.customertype = $('#ucustype').val()
+            objcustomer.studentname = $('#ucusname').val();
+            objcustomer.address = $('#uaddress').val();
+            objcustomer.contactnumber = $('#ucontact').val();
+            objcustomer.dob = $('#udob').val();
+            objcustomer.email = $('#uemail').val();
+            objcustomer.studentid = $('#ucusid').val()
+            objcustomer.guardianname = $('#uguar_name').val()
+            objcustomer.guardianaddress = $('#uguar_address').val()
+            objcustomer.guardiancontact = $('#uguar_contact').val()
+            objcustomer.guardianrelation = $('#uguar_relation').val()
+            $.post('@Url.Action("UpdateCustomer", "Customer")', { obj: objcustomer }, data => {
+                if (data.errcode == 1) {
+                    $('#idfrmcustomer_update').modal('hide')
+                    $('#msg-edit').modal('show');
+                    getdata();
+                    close('#msg-edit');
+                }
+            }
+            );
+        }
+
+        $(this).addClass('was-validated');
+    });
+
+</script>

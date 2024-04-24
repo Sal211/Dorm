@@ -1,0 +1,587 @@
+﻿<style>
+    div.dataTables_wrapper div.dataTables_length select {
+        width: 50%;
+        display: inline-block;
+    }
+
+    table tbody tr.selected td {
+        background-color: gray !important;
+        color: #fff;
+    }
+
+    table tbody td:last-child {
+        text-align: center;
+    }
+
+    .detail_right {
+        color: #CBA02D;
+    }
+
+    .detail_left {
+        color: #002C6A;
+    }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h5>
+                Using Room
+            </h5>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-6 d-flex align-items-center">
+            <div class="input-group me-2">
+                <span class="input-group-text"><i class="fa-solid fa-filter"></i></span>
+                <select class="form-control w-75" id="filter_roomtype">
+                </select>             
+            </div>
+            <div class="input-group">
+                <span class="input-group-text"><i class="fa-solid fa-filter"></i></span>
+                <select class="form-control w-25" id="filter_roomtype_status">
+                    <option value="0">Both</option>
+                    <option value="1">Occupied</option>
+                    <option value="2">Reserved</option>
+                </select>
+            </div>          
+        </div>
+    </div>
+    <hr />
+    <div class="table-responsive ">
+        <div class="row">
+            <div class="col-sm-12">
+                <table class=" table table-striped table-bordered nowrap" style="width:100%" id="tbroom">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Room Type</th>
+                            <th>Room Name</th>
+                            <th>Tenant</th>
+                            <th>Capacity</th>
+                            <th>Command</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+</div>
+@* Modal Insert*@
+<div class="modal fade" id="idfrmroom" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"><span id="title_tran">Edit</span> Room  <span class="d-none title_detail">Detail</span></h5>
+                <button type="button" class="close close-modal d-none title_detail" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validate">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <span>Room Name :</span>
+                            <input type="text" class="form-control" id="roomname" required />
+
+                            <span>Floor :</span>
+                            <input type="text" class="form-control w-75" id="floor" required />
+
+                            <span>Capacity :</span>
+                            <input type="text" class="form-control w-75" id="capacity" required />
+
+                            <span>Bed :</span>
+                            <input type="text" class="form-control w-75" id="bed" required />
+
+                        </div>
+                        <div class="col-sm-6">
+                            <span>Room Type</span>
+                            <select class="form-control" id="roomtype" required>Choose Type</select>
+
+                            <span>Note : </span>
+                            <textarea id="note" cols="29" rows="6" class="form-control"></textarea>
+
+                        </div>
+                    </div>
+                    <div class="row d-none" id="info_detail">
+                        <div class="col-sm-6">
+                            <span>Create UID</span>
+                            <input type="text" class="form-control" id="createuid" disabled />
+                        </div>
+                        <div class="col-sm-6">
+                            <span>Create Date</span>
+                            <input type="text" class="form-control" id="createdate" disabled />
+                        </div>
+                    </div>
+                    <section class="btn-main">
+                        <hr />
+                        <button type="submit" class="btn btn-primary close-modal">Save </button>
+                        <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal" id="close">Close</button>
+                    </section>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="idfrmroom_detail" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-between">
+                <h5 class="modal-title">Room Details</h5>
+                <button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row ps-3 pe-3">
+                    <div class="col-sm-6 d-flex align-items-center justify-content-between mb-2">
+                        <span>Room Name : </span>
+                        <input type="text" class="form-control w-50" id="detail_RoomName" readonly>
+                    </div>
+                    <div class="col-sm-6 d-flex align-items-center justify-content-between mb-2">
+                        <span>Room Type : </span>
+                        <input type="text" class="form-control w-50" id="detail_RoomType" readonly>
+                    </div>
+                    <div class="col-sm-6 d-flex align-items-center justify-content-between">
+                        <span>Capacity : </span>
+                        <input type="text" class="form-control w-50" id="detail_Capacity" readonly>
+                    </div>
+                    <div class="col-sm-6 d-flex align-items-center justify-content-between">
+                        <span>Tenant : </span>
+                        <input type="text" class="form-control w-50" id="detail_Tenant" readonly>
+                    </div>
+                </div>
+                <div class="row mt-3 detail_inform">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="tenant_detail" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Booking Detail</h5>
+                <button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col-4">
+                            <span>Student ID</span>
+                            <input type="text" class="form-control" id="detail_stuid" readonly />
+                        </div>
+                        <div class="col-4">
+                            <span>Student Name </span>
+                            <input type="text" class="form-control" id="detail_stuname" readonly />
+                        </div>
+                        <div class="col-4">
+                            <span>Customer Type </span>
+                            <input type="text" class="form-control" id="detail_custype" readonly />
+                        </div>
+                        <div class="col-4">
+                            <span>Room Type </span>
+                            <input type="text" class="form-control" id="detail_roomtype" readonly />
+                        </div>
+                        <div class="col-4">
+                            <span>Room Name </span>
+                            <input type="text" class="form-control" id="detail_roomname" readonly />
+                        </div>
+                        <div class="col-4">
+                            <span> Status</span>
+                            <input type="text" class="form-control" id="detail_status" readonly />
+                        </div>
+                    </div>
+                    <hr class="mt-2" />
+                    <div class="row" style="padding: 0px 50px;">
+                        <div class="col-6">
+                            <span> Start Time</span>
+                            <input type="text" class="form-control" id="detail_starttime" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> End Time</span>
+                            <input type="text" class="form-control" id="detail_endtime" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Start Date</span>
+                            <input type="text" class="form-control" id="detail_startdate" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> End Date</span>
+                            <input type="text" class="form-control" id="detail_enddate" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Tuition Due</span>
+                            <input type="text" class="form-control" id="detail_tuitiondue" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Tuition Paid</span>
+                            <input type="text" class="form-control" id="detail_tuitionpaid" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Discount</span>
+                            <input type="text" class="form-control" id="detail_discount" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Tenant Type</span>
+                            <input type="text" class="form-control" id="detail_tenant_type" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Create UID</span>
+                            <input type="text" class="form-control" id="detail_createuid" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Create Date</span>
+                            <input type="text" class="form-control" id="detail_createdate" readonly />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@* Alert Edit*@
+<div class="modal fade" id="msg-edit" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-pen-to-square" style="font-size: 50px; color : green;"></i></div>
+                <div style="font-size: 20px; color : green;">SUCCESS!</div>
+                <p style="font-size: 14px">You Have Edited Successfully!</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Ok</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+@* Alert delete*@
+<div class="modal fade" id="msg-delete" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-exclamation" style="font-size: 50px; color: red;"></i></div>
+                <div style="font-size: 20px; color: red;">Are you Sure!</div>
+                <p style="font-size: 14px;">Do you really want to delete this record!</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger " id="delete">Delete</button>
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal" id="cancel">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="msg-roomerr" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-regular fa-face-frown-open" style="font-size: 50px; color: red;"></i></div>
+                <div style="font-size: 20px; color: red;">RoomType Have Already!!!</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    var Roomdata = []
+    var objroom = {}
+    var roomid = 0
+    $('#tbroom').DataTable({
+        data: Roomdata,
+        columns: [
+            {
+                render: function (data, type, full, meta) { return meta.row + 1; }
+            },
+            { data: "roomtype" },
+            { data: "roomname" },
+            { data: "tenant" },
+            { data: "capacity" },
+            {
+                render: function (data, type, full) {
+                    return '<a href="#" onclick="remove(' + full.roomid + ')"><i class="fa fa-trash" style="color: red;"></i></a>' +
+                        '<a href="#" class="edit"><i class="fa-solid fa-pen-to-square" style="color: green; margin-left: 8px;"></i></a>' +
+                        '<a href="#" class="detail"><img src="/img/detail.png" style="width: 17px;margin-left: 8px; "/></a>';
+                }
+            },
+        ]
+    });
+    var table = $('#tbroom').DataTable();
+    var TenantData = []
+    getdata();
+    function getdata() {
+        $.ajax({
+            url: '/Room/GetUsingRoom',
+            type: "GET",
+            dataType: "JSON",
+            data: 0,
+            success: function (data) {
+                Roomdata = data.clsRooms;
+                table.clear().rows.add(Roomdata).draw();
+            }
+        })
+    }
+    // close
+    function close(name) {
+        $('.close-modal').each(function () {
+            $(this).click(() => {
+                id = 0;
+                $(name).modal('hide');
+            });
+        });
+    }
+    // Get Data Detail Status Room 
+    function getdata_detailstatus(data) {
+        $('#detail_RoomName').val(data.roomname)
+        $('#detail_Tenant').val(data.tenant)
+        $('#detail_Capacity').val(data.capacity)
+        $('#detail_RoomType').val(data.roomtype)
+        $.ajax({
+            url: '/Room/DetailGetUsingRoom',
+            type: "GET",
+            dataType: "JSON",
+            data: {roomid : data.roomid},
+            success: function (data) {   
+                console.log(data)
+                appenddata_detail(data.clsBookings)
+            }
+         
+        })
+    }
+    // Function Append Data Detail
+ 
+    function appenddata_detail(Usingroom) {
+            TenantData = Usingroom
+        $('.detail_inform').empty();
+        Usingroom.forEach((value, key) => {
+            console.log(value)
+            const element =
+                `
+                <div class="col-sm-6 mt-2">
+                    <div class="card">
+                    <div class="card-body">
+                        <span class="card-title detail_left"><i class="fa-solid fa-user me-1"></i>${value.studentname}</span>
+                        <div class="row mt-2">
+                        <div class="col-sm-6 mb-1 detail_left">
+                            <i class="fas fa-calendar-alt"></i>
+                             <span>${value.format_startdate}</span>
+                        </div>
+                        <div class="col-sm-6 mb-1 detail_right" >
+                            <i class="fas fa-calendar-alt"></i>
+                              <span>${value.format_enddate} </span>
+                        </div>
+                        <div class="col-sm-6 mb-1 detail_left">
+                            <i class="fas fa-clock"></i>
+                              <span>${value.format_starttime}</span>
+                        </div>
+                        <div class="col-sm-6 mb-1 detail_right">
+                            <i class="fas fa-calendar-alt"></i>
+                                <span>${value.format_endtime}</span>
+                        </div>
+
+                        <div class="col-sm-6 mb-1 detail_left">
+                            <i class="fa-solid fa-money-bill"></i>
+                                <span>${value.tuitiondue} $ </span>
+                        </div>
+                        <div class="col-sm-6 mb-1 detail_right">
+                            <i class="fas fa-hand-holding-usd"></i>
+                               <span>${value.tuitionpaid} $ </span>
+                        </div>
+                        </div>
+                        <button class="btn btn-primary mt-1" onclick="showdetail_tenant(${value.tranid})"><i class="fa-solid fa-circle-info"></i> View Details</button>
+                    </div>
+                </div>
+                `
+            $('.detail_inform').append(element)
+        })      
+    }
+    // Show Tenant Detail
+    var getroom_filter = []
+    function showdetail_tenant(tranid){
+        getroom_filter = TenantData.filter((room) => {
+            return room.tranid == tranid;
+        })
+        close('#tenant_detail')
+        getdata_input_detail(getroom_filter)
+    }
+    // Function Fill Data To Detail
+    function getdata_input_detail(data) {
+        console.log(data)
+  
+        var tenanttype = data[0].ternant_type == 0 ? "Multi-Tenant" : "Single-Tenant";
+        $('#detail_roomname').val(data[0].roomname)
+        $('#detail_stuid').val(data[0].studentid)
+        $('#detail_startdate').val(data[0].format_startdate)
+        $('#detail_starttime').val(data[0].format_starttime)
+        $('#detail_enddate').val(data[0].format_enddate)
+        $('#detail_endtime').val(data[0].format_endtime)
+        $('#detail_tuitiondue').val(data[0].tuitiondue)
+        $('#detail_tenant_type').val(tenanttype)
+        $('#detail_roomtype').val(data[0].roomtype)
+        $('#detail_discount').val(data[0].discount)
+        $('#detail_tuitionpaid').val(data[0].tuitionpaid)
+        $('#detail_status').val(data[0].str_ispaid)
+        $('#detail_stuname').val(data[0].studentname)
+        $('#detail_custype').val(data[0].custype)
+        $('#detail_createdate').val(data[0].createdate)
+        $('#detail_createuid').val(data[0].createuid)
+        $('#tenant_detail').modal('show')
+    }
+    // Get Filter Data
+  
+    $('#filter_roomtype').change(() => {     
+        getdatafilter();
+    })
+    // Getdatacboroomtype
+    getcboroomtype()
+    function getcboroomtype() {
+        $.get('@Url.Action("Getcboroomtype", "MasterData")', data => {
+            $('#filter_roomtype').empty();
+            $('#filter_roomtype').append(new Option("All", 0))
+            for (var i = 0; i < data.clsRoomTypes.length; i++) {
+                $('#filter_roomtype').append(new Option(data.clsRoomTypes[i].roomtype, data.clsRoomTypes[i].roomtypeid));
+            }
+            $('#filter_roomtype').val(0)
+        });
+    }
+    // Filter Room 
+    function getdatafilter() {
+        $.ajax({
+            url: '/Room/GetUsingRoom',
+            type: "GET",
+            dataType: "JSON",
+            data: {
+                type: $('#filter_roomtype_status').val(),
+                roomtypeid: $('#filter_roomtype').val()
+            },
+            success: function (data) {
+                Roomdata = data.clsRooms;
+                table.clear().rows.add(Roomdata).draw();
+            }
+        })
+    }
+    $('#filter_roomtype_status').change(() => {
+        getdatafilter();       
+    })
+  
+    // Submit Data
+    $('#idfrmroom').on('submit', '.needs-validate', function (event) {
+        event.preventDefault();
+        if (this.checkValidity() === false) {
+            event.stopPropagation();
+        } else {          
+            Postdata("UpdateRoom");
+        }
+    })
+    // close button
+    function close(name) {
+        $('.close-modal').each(function () {
+            $(this).click(() => {
+                id = 0;
+                $(name).modal('hide');
+            });
+        });
+    }
+    // Function Getdata Input
+    function getdata_input(data) {     
+        $('#roomname').val(data.roomname);
+        $('#floor').val(data.floor);
+        $('#capacity').val(data.capacity);
+        $('#bed').val(data.bed);
+        $('#note').val(data.note);
+        dataroomtypecbo(data.roomtypeid);
+        $('#createuid').val(data.createuid)
+        $('#createdate').val(data.formatdate)
+        roomid = data.roomid
+    }
+  
+    // Detail
+    $('#tbroom').on('click', '.detail', function () {
+        var a = $(this).parent().parent();
+        console.log(a)
+        var index = table.row(a).index()
+        var data = table.row(index).data();
+        close('#idfrmroom_detail')
+        $('#idfrmroom_detail').modal('show');
+        getdata_detailstatus(data)
+    })
+    // Edit
+    $('#tbroom').on('click', '.edit', function () {
+        var a = $(this).parent().parent();
+        var index = table.row(a).index()
+        var data = table.row(index).data(); 
+        close('#idfrmroom')
+        $('#idfrmroom').modal('show');       
+        getdata_input(data)
+
+    })
+    //Function Getdatacbo roomtype
+    function dataroomtypecbo(value) {
+        $.get('@Url.Action("Getcboroomtype", "MasterData")', data => {
+            $('#roomtype').empty();
+            $('#roomtype').append(new Option("NA", ""))
+            for (var i = 0; i < data.clsRoomTypes.length; i++) {
+                $('#roomtype').append(new Option(data.clsRoomTypes[i].roomtype, data.clsRoomTypes[i].roomtypeid));
+            }
+            $('#roomtype').val(value)
+        });
+    }
+    // Fuction postdata_input
+    function postdata_input() {
+        objroom = {}
+        objroom.roomtypeid = $('#roomtype').val();
+        objroom.roomname = $('#roomname').val();
+        objroom.floor = $('#floor').val();
+        objroom.capacity = $('#capacity').val();
+        objroom.note = $('#note').val();
+        objroom.bed = $('#bed').val();
+        objroom.roomid = roomid
+    }
+    // Function Postdata
+    function Postdata(action) {
+        postdata_input();
+        console.log(objroom)
+        $.post(`/Room/${action}`, { obj: objroom }, (data) => {
+            console.log(data)
+            if (data.errcode == 1) {
+                $('#idfrmroom').modal('hide');
+                $('#msg-edit').modal("show")
+                alert("hi")
+                getdata();
+                action = "";
+            } else if (data.errcode == 0) {
+                $('#msg-roomerr').modal("show")
+            }
+        });
+
+    }
+    // Delete Data
+
+    function remove(roomid) {
+        $('#msg-delete').modal('show');
+        close('#msg-delete');
+        $('#delete').click(() => {
+            $.post('@Url.Action("DeleteRoom", "Room")', { id: roomid }, data => {
+                if (data.errcode == 1) {
+                    $('#cancel').trigger("click")
+                    getdata();
+                }
+            });
+        });
+    }
+</script>

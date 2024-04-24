@@ -1,0 +1,2541 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Dormitory System.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Dormitory System.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\css\\Admin.css",
+      "PackagePath": "staticwebassets\\css\\Admin.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\css\\Dashboard.css",
+      "PackagePath": "staticwebassets\\css\\Dashboard.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\css\\Login\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\Login\\StyleSheet.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\Admins\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\card.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\card.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\Admins\\favicon.png"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\logo.png",
+      "PackagePath": "staticwebassets\\img\\Admins\\logo.png"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\messages-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\messages-1.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\messages-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\messages-2.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\messages-3.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\messages-3.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\news-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\news-1.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\news-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\news-2.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\news-3.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\news-3.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\news-4.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\news-4.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\news-5.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\news-5.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\not-found.svg",
+      "PackagePath": "staticwebassets\\img\\Admins\\not-found.svg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\profile-img.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\profile-img.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\slides-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\slides-1.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\slides-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\slides-2.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\Admins\\slides-3.jpg",
+      "PackagePath": "staticwebassets\\img\\Admins\\slides-3.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\IMG_20230811_233505-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\IMG_20230811_233505-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\detail.png",
+      "PackagePath": "staticwebassets\\img\\detail.png"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\img\\newleft.jpg",
+      "PackagePath": "staticwebassets\\img\\newleft.jpg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\js\\Admin.js",
+      "PackagePath": "staticwebassets\\js\\Admin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\js\\Dashboard.js",
+      "PackagePath": "staticwebassets\\js\\Dashboard.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\js\\Room.js",
+      "PackagePath": "staticwebassets\\js\\Room.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\aos\\aos.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\aos\\aos.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\aos\\aos.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\apexcharts.amd.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\apexcharts.amd.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\apexcharts.common.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\apexcharts.common.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\apexcharts.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\apexcharts.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\apexcharts.esm.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\apexcharts.esm.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\apexcharts.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\ar.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\ar.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\ca.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\ca.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\cs.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\cs.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\da.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\da.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\de.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\de.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\el.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\el.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\en.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\en.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\es.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\es.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\et.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\et.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\fa.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\fa.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\fi.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\fi.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\fr.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\fr.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\he.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\he.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\hi.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\hi.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\hr.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\hr.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\hu.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\hu.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\hy.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\hy.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\id.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\id.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\it.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\it.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\ja.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\ja.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\ka.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\ka.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\ko.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\ko.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\lt.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\lt.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\lv.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\lv.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\ms.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\ms.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\nb.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\nb.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\nl.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\nl.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\pl.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\pl.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\pt-br.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\pt-br.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\pt.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\pt.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\rs.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\rs.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\ru.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\ru.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\se.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\se.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\sk.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\sk.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\sl.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\sl.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\sq.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\sq.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\th.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\th.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\tr.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\tr.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\ua.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\ua.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\zh-cn.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\zh-cn.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\apexcharts\\locales\\zh-tw.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\apexcharts\\locales\\zh-tw.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\lib\\lib\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\lib\\lib\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\lib\\lib\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\lib\\lib\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\lib\\lib\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\chart.cjs",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\chart.cjs"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\chart.cjs.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\chart.cjs.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\chart.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\chart.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\chart.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\chart.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\chart.umd.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\chart.umd.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\chart.umd.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\chart.umd.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\chunks\\helpers.segment.cjs",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\chunks\\helpers.segment.cjs"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\chunks\\helpers.segment.cjs.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\chunks\\helpers.segment.cjs.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\chunks\\helpers.segment.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\chunks\\helpers.segment.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\chunks\\helpers.segment.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\chunks\\helpers.segment.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\controllers\\controller.bar.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\controllers\\controller.bar.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\controllers\\controller.bubble.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\controllers\\controller.bubble.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\controllers\\controller.doughnut.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\controllers\\controller.doughnut.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\controllers\\controller.line.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\controllers\\controller.line.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\controllers\\controller.pie.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\controllers\\controller.pie.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\controllers\\controller.polarArea.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\controllers\\controller.polarArea.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\controllers\\controller.radar.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\controllers\\controller.radar.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\controllers\\controller.scatter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\controllers\\controller.scatter.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\controllers\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\controllers\\index.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.adapters.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.adapters.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.animation.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.animation.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.animations.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.animations.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.animations.defaults.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.animations.defaults.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.animator.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.animator.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.config.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.config.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.controller.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.controller.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.datasetController.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.datasetController.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.defaults.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.defaults.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.element.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.element.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.interaction.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.interaction.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.layouts.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.layouts.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.layouts.defaults.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.layouts.defaults.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.plugins.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.plugins.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.registry.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.registry.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.scale.autoskip.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.scale.autoskip.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.scale.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.scale.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.scale.defaults.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.scale.defaults.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.ticks.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.ticks.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\core.typedRegistry.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\core.typedRegistry.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\core\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\core\\index.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\elements\\element.arc.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\elements\\element.arc.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\elements\\element.bar.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\elements\\element.bar.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\elements\\element.line.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\elements\\element.line.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\elements\\element.point.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\elements\\element.point.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\elements\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\elements\\index.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers.cjs",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers.cjs"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers.cjs.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers.cjs.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.canvas.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.canvas.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.collection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.collection.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.color.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.color.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.config.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.config.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.config.types.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.config.types.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.core.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.core.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.curve.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.curve.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.dom.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.dom.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.easing.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.easing.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.extras.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.extras.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.interpolation.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.interpolation.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.intl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.intl.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.math.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.math.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.options.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.options.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.rtl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.rtl.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\helpers.segment.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\helpers.segment.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\helpers\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\helpers\\index.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\index.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\index.umd.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\index.umd.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\platform\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\platform\\index.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\platform\\platform.base.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\platform\\platform.base.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\platform\\platform.basic.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\platform\\platform.basic.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\platform\\platform.dom.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\platform\\platform.dom.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\index.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.colors.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.colors.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.decimation.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.decimation.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.drawing.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.drawing.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.helper.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.helper.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.options.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.options.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.segment.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.segment.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.target.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.target.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.target.stack.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.filler\\filler.target.stack.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.filler\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.filler\\index.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.filler\\simpleArc.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.filler\\simpleArc.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.legend.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.legend.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.subtitle.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.subtitle.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.title.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.title.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\plugins\\plugin.tooltip.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\plugins\\plugin.tooltip.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\scales\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\scales\\index.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\scales\\scale.category.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\scales\\scale.category.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\scales\\scale.linear.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\scales\\scale.linear.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\scales\\scale.linearbase.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\scales\\scale.linearbase.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\scales\\scale.logarithmic.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\scales\\scale.logarithmic.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\scales\\scale.radialLinear.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\scales\\scale.radialLinear.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\scales\\scale.time.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\scales\\scale.time.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\scales\\scale.timeseries.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\scales\\scale.timeseries.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\types.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\types.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\types\\animation.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\types\\animation.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\types\\basic.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\types\\basic.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\types\\color.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\types\\color.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\types\\geometric.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\types\\geometric.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\types\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\types\\index.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\types\\layout.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\types\\layout.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\chart.js\\types\\utils.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\chart.js\\types\\utils.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.common.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.common.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.common.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.common.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.common.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.common.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.esm.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.esm.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.esm.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.esm.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.simple.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.simple.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.simple.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.simple.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\echarts.simple.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\echarts.simple.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\extension\\bmap.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\extension\\bmap.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\extension\\bmap.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\extension\\bmap.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\extension\\bmap.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\extension\\bmap.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\extension\\dataTool.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\extension\\dataTool.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\extension\\dataTool.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\extension\\dataTool.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\echarts\\extension\\dataTool.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\echarts\\extension\\dataTool.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\quill\\quill.bubble.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\quill\\quill.bubble.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\quill\\quill.core.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\quill\\quill.core.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\quill\\quill.core.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\quill\\quill.core.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\quill\\quill.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\quill\\quill.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\quill\\quill.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\quill\\quill.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\quill\\quill.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\quill\\quill.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\quill\\quill.snow.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\quill\\quill.snow.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\remixicon\\remixicon.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\remixicon\\remixicon.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\remixicon\\remixicon.eot",
+      "PackagePath": "staticwebassets\\lib\\lib\\remixicon\\remixicon.eot"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\remixicon\\remixicon.glyph.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\remixicon\\remixicon.glyph.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\remixicon\\remixicon.less",
+      "PackagePath": "staticwebassets\\lib\\lib\\remixicon\\remixicon.less"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\remixicon\\remixicon.svg",
+      "PackagePath": "staticwebassets\\lib\\lib\\remixicon\\remixicon.svg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\remixicon\\remixicon.symbol.svg",
+      "PackagePath": "staticwebassets\\lib\\lib\\remixicon\\remixicon.symbol.svg"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\remixicon\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\lib\\lib\\remixicon\\remixicon.ttf"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\remixicon\\remixicon.woff",
+      "PackagePath": "staticwebassets\\lib\\lib\\remixicon\\remixicon.woff"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\remixicon\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\lib\\lib\\remixicon\\remixicon.woff2"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\simple-datatables\\simple-datatables.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\simple-datatables\\simple-datatables.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\simple-datatables\\style.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\simple-datatables\\style.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\README.md",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\README.md"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\bower.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\composer.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\composer.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\icons\\default\\icons.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\icons\\default\\icons.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\icons\\default\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\icons\\default\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\license.txt"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\models\\dom\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\models\\dom\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\models\\dom\\model.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\models\\dom\\model.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\models\\dom\\model.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\models\\dom\\model.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\package.json",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\package.json"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\accordion\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\accordion\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\accordion\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\accordion\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\accordion\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\accordion\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\advlist\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\advlist\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\advlist\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\advlist\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\anchor\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\anchor\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\anchor\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\anchor\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\autolink\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\autolink\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\autolink\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\autolink\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\autoresize\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\autoresize\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\autoresize\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\autoresize\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\autosave\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\autosave\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\autosave\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\autosave\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\charmap\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\charmap\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\charmap\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\charmap\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\code\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\code\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\code\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\code\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\codesample\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\codesample\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\codesample\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\codesample\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\directionality\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\directionality\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\directionality\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\directionality\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\emoticons\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\emoticons\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\emoticons\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\emoticons\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\fullscreen\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\fullscreen\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\fullscreen\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\fullscreen\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ar.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\bg_BG.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\bg_BG.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ca.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\cs.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\da.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\da.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\de.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\de.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\el.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\el.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\en.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\en.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\es.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\es.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\eu.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\eu.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fa.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fi.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fr_FR.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fr_FR.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\he_IL.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\he_IL.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hi.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hi.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hr.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hu_HU.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hu_HU.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\id.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\id.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\it.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\it.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ja.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\kk.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\kk.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ko_KR.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ko_KR.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ms.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ms.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nb_NO.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nb_NO.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nl.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pl.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_BR.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_BR.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_PT.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_PT.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ro.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ru.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sk.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sl_SI.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sl_SI.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sv_SE.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sv_SE.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\th_TH.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\th_TH.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\tr.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\uk.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\uk.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\vi.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_CN.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_CN.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_TW.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_TW.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\image\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\image\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\image\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\image\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\importcss\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\importcss\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\importcss\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\importcss\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\insertdatetime\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\insertdatetime\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\link\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\link\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\link\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\link\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\lists\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\lists\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\lists\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\lists\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\media\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\media\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\media\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\media\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\nonbreaking\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\nonbreaking\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\pagebreak\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\pagebreak\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\pagebreak\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\pagebreak\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\preview\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\preview\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\preview\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\preview\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\quickbars\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\quickbars\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\quickbars\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\quickbars\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\save\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\save\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\save\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\save\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\searchreplace\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\searchreplace\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\searchreplace\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\searchreplace\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\table\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\table\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\table\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\table\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\template\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\template\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\template\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\template\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\visualblocks\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\visualblocks\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\visualblocks\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\visualblocks\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\visualchars\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\visualchars\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\visualchars\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\visualchars\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\wordcount\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\wordcount\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\wordcount\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\wordcount\\plugin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\dark\\content.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\dark\\content.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\dark\\content.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\default\\content.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\default\\content.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\default\\content.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\default\\content.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\document\\content.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\document\\content.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\document\\content.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\document\\content.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\tinymce-5\\content.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\tinymce-5\\content.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\tinymce-5\\content.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\tinymce-5\\content.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\writer\\content.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\writer\\content.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\writer\\content.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\writer\\content.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\themes\\silver\\index.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\themes\\silver\\index.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\themes\\silver\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\themes\\silver\\theme.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\tinymce.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\tinymce.js"
+    },
+    {
+      "Id": "D:\\AIB-C#\\Dormitory System\\Dormitory System\\wwwroot\\lib\\lib\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Dormitory System.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Dormitory System.props",
+      "PackagePath": "build\\Dormitory System.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Dormitory System.props",
+      "PackagePath": "buildMultiTargeting\\Dormitory System.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Dormitory System.props",
+      "PackagePath": "buildTransitive\\Dormitory System.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

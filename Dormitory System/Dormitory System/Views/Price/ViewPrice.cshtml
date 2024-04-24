@@ -1,0 +1,437 @@
+﻿<style>
+    div.dataTables_wrapper div.dataTables_length select {
+        width: 50%;
+        display: inline-block;
+    }
+
+    table tbody tr.selected td {
+        background-color: gray !important;
+        color: #fff;
+    }
+
+    table tbody td:last-child {
+        text-align: center;
+    }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h5>
+                Price Setting
+            </h5>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="btn btn-outline-info" data-target="#idfrmprice" data-toggle="modal" id="btn-add">Add Price</button>
+        </div>
+    </div>
+    <hr />
+    <div class="table-responsive ">
+        <div class="row">
+            <div class="col-sm-12">
+                <table class=" table table-striped table-bordered nowrap" style="width:100%" id="tbprice">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Room Name</th>                         
+                            <th>Price Per Person(Per Day)</th>
+                            <th>Price Per Person (Per Month)</th>
+                            <th>Full Price Per Day</th>
+                            <th>Full Price Per Month</th>
+                            <th>Command</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+</div>
+@*MOdal Insert*@
+<div class="modal fade" id="idfrmprice" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 600px;">
+        <div class="modal-content " style="width : 600px">
+            <div class="modal-header ">
+                <h5 class="modal-title"><span id="title_tran">Create</span> Price Setting <span class="d-none title_detail">Detail</span></h5>
+                <button type="button" class="close close-modal d-none title_detail" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validation" novalidate>
+                    <div class="row ">
+                        <div class="col-sm-6">
+                            <span>Room Type</span>
+                            <select class="form-select" id="roomtype">
+                                <option value="">NA</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6">
+                            <span>Room Name</span>
+                            <select class="form-select" id="roomname" required>
+                                <option value="">NA</option>
+                            </select>
+                        </div>
+                    </div>
+                    <hr class="mt-2">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <span>Full Price Per Day($):</span>
+                            <input type="text" class="form-control w-75" id="fullpriceperday" required />
+                            <div class="invalid-feedback">
+                                Please Input Full Price Per Day!!!
+                            </div>
+
+                            <span>Price Per Person (Per Day)($): </span>
+                            <input type="text" class="form-control w-75" id="priceperday" required />
+                            <div class="invalid-feedback">
+                                Please Input Price Per Person (Per Day)!!!
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <span>Full Price Per Month($):</span>
+                            <input type="text" class="form-control w-75" id="fullpricepermonth" required />
+                            <div class="invalid-feedback">
+                                Please Input Full Price Per Month!!!
+                            </div>
+
+                            <span>Price Per Person (Per Month)($):</span>
+                            <input type="text" class="form-control w-75" id="pricepermonth" required />
+                            <div class="invalid-feedback">
+                                Please Input Price Per Person (Per Month)!!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-none" id="info_detail">
+                        <div class="col-sm-6">
+                            <span>Create UID</span>
+                            <input type="text" class="form-control" id="createuid" disabled />
+                        </div>
+                        <div class="col-sm-6">
+                            <span>Create Date</span>
+                            <input type="text" class="form-control" id="createdate" disabled />
+                        </div>
+                    </div>
+                    <section class="btn-main">
+                        <hr>
+                        <button type="submit" class="btn btn-primary close-modal" id="btn-save">Save</button>
+                        <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal" id="btn-close">Close</button>
+                    </section>                 
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Alert Success*@
+<div class="modal fade" id="msg-success" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-check" style="font-size: 50px; color: green;"></i></div>
+                <div style="font-size: 20px; color: green;">SUCCESS!</div>
+                <p style="font-size: 14px;">You Have Added Successfully!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@* Alert delete*@
+<div class="modal fade" id="msg-delete" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-exclamation" style="font-size: 50px; color: red;"></i></div>
+                <div style="font-size: 20px; color: red;">Are you Sure!</div>
+                <p style="font-size: 14px;">Do you really want to delete this record!</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger " id="delete">Delete</button>
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal" id="cancel">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    // Data Table
+    var Roomdata = []
+    $('#tbprice').DataTable({
+        data: Roomdata,
+        columns: [
+            {
+                render: function (data, type, full, meta) { return meta.row + 1; }
+            },
+            { data: "roomname" },
+            { data: "fullper_day", render: function (data) { return data + '$' } },
+            { data: "fullper_month", render: function (data) { return data + '$' } },
+            { data: "fullprice_day",render: function (data) { return data + '$'}},
+            { data: "fullprice_month", render: function (data) { return data + '$' } },
+            {
+                render: function (data, type, full) {
+                    return '<a href="#" onclick="remove(' + full.priceid + ')"><i class="fa fa-trash" style="color: red;"></i></a>' +
+                        '<a href="#" class="edit"><i class="fa-solid fa-pen-to-square" style="color: green; margin-left: 8px;"></i></a>' +
+                        '<a href="#" class="detail"><img src="/img/detail.png" style="width: 17px;margin-left: 8px; "/></a>';
+                }
+            },
+
+        ]
+    });
+    var table = $('#tbprice').DataTable();
+    var id = 0;
+    var priceid = 0;
+     var roomtype = "";
+     let objroom = {}
+    // close button
+    function close(name) {
+        $('.close-modal').each(function () {
+            $(this).click(() => {
+                id = 0;
+                $(name).modal('hide');
+            });
+        });
+    }
+   
+
+    // Get Data
+    getdata();
+    function getdata() {
+        $.ajax({
+            url: '@Url.Action("GetPrice", "Price")',
+            type: "GET",
+            dataType: "JSON",
+            success: function (data) {
+                console.log(data);
+                Roomdata = data.clsPrices;
+                table.clear().rows.add(Roomdata).draw();
+
+            }
+        })
+
+    }
+    // Delete Data
+
+    function remove(roomid) {
+        $('#msg-delete').modal('show');
+        close('#msg-delete');
+        $('#delete').click(() => {
+            $.post('@Url.Action("DeletePrice", "Price")', { id: roomid }, data => {
+                if (data.errcode == 1) {
+                    $('#cancel').trigger("click")
+                    getdata();
+                }
+            });
+
+        });
+    }
+
+
+    // click bg
+    $('#tbprice').on('click', 'tr', function () {
+        $(this).toggleClass('selected');
+        $('#tbprice tr').not(this).removeClass('selected');
+    });
+    
+    // Function Alert Message
+    var action = "", msg = "";
+
+    function Alertmsg(msg) {
+         
+        if (msg == 'Added') {
+            $('#btn-close').trigger('click');
+        }
+        swal("Succeess!", "You Have'"+msg+"' Successfully!", "success");
+    }
+
+    // Submit Data
+    $('#idfrmprice').on('submit', '.needs-validation', function (event) {
+        event.preventDefault();
+        if (this.checkValidity() === false) {
+            event.stopPropagation();
+        } else {
+            Postdata(action, msg);
+        }
+    })
+
+    //Detail
+    $('#tbprice').on('click', '.detail', function () {
+        var a = $(this).parent().parent();
+        console.log(a)
+        var index = table.row(a).index()
+        var data = table.row(index).data();
+        close('#idfrmprice')
+        change_modal(" ", false)
+        $('#idfrmprice').modal('show');
+        disablebtn(true)
+        getdata_input(data)
+    })
+     
+    // Function Getdata Input
+    function getdata_input(data){
+        $('#roomtype').val(data.roomtypeid)
+        $('#roomname').val(data.roomid)
+        $('#fullpricepermonth').val(data.fullprice_month);
+        $('#priceperday').val(data.fullper_day);
+        $('#fullpriceperday').val(data.fullprice_day);
+        $('#pricepermonth').val(data.fullper_month);
+        priceid = data.priceid;
+        $('#createuid').val(data.createuid)
+        $('#createdate').val(data.formatdate)
+        dataroomtypecbo(data.roomtypeid);
+        dataroomcbo(data.roomtypeid, data.roomid)
+    }
+    // Prevent Input
+    $('#fullpricepermonth,#priceperday,#fullpriceperday,#pricepermonth').on('keypress', function (event) {
+        var inputValue = event.which;
+        var value = $(this).val()
+        if ((value.includes('.')  ) && (inputValue === 46 ) || value.length > 10 || !((inputValue >= 48 && inputValue <= 57) || inputValue === 46 || inputValue === 44)) {
+            event.preventDefault();
+        }
+
+    });
+    // Function Change modal 
+    function change_modal(value,type){
+        if(type){
+            $('.modal-title #title_tran').text(value)
+            $('#info_detail').addClass("d-none")
+            $('.btn-main').removeClass("d-none")
+            $('.title_detail').addClass("d-none")
+            $('.modal-title  #title_tran').removeClass("d-none")
+        }else{          
+            $('#info_detail').removeClass("d-none")
+            $('.btn-main').addClass("d-none")    
+            $('.modal-title span').addClass("d-none")
+            $('.title_detail').removeClass("d-none")
+        }
+    }
+    // Edit
+    $('#tbprice').on('click', '.edit', function () {
+        var a = $(this).parent().parent();
+        var index = table.row(a).index()
+        var data = table.row(index).data();
+        
+        change_modal("Edit",true)
+        close('#idfrmprice')
+         $('#idfrmprice').modal('show');
+        disablebtn(false)
+        getdata_input(data)   
+        $('#roomtype').prop('disabled', true); 
+        action = "UpdatePrice";
+        msg = "Edited";
+    })
+    // function getdata combo box roomtype
+    function dataroomtypecbo(value) {
+        $.get('@Url.Action("Getcboroomtype", "MasterData")', data => {
+            $('#roomtype').empty();
+            $('#roomtype').append(new Option("NA", ""))
+            $.each(data.clsRoomTypes, function (index,value) {
+                $('#roomtype').append(new Option(value.roomtype, value.roomtypeid));
+            })
+            $('#roomtype').val(value)
+        });
+    }
+    // 
+    //function getdata combo box room
+    $('#roomtype').change(function () {
+        dataroomcbo($(this).val(), $('#roomname').val())
+    });
+    
+function dataroomcbo(roomtype_id, room_id) {
+    var obj = {
+        roomid: room_id,
+        roomtypeid: roomtype_id
+    };
+
+    $.ajax({
+        url: '@Url.Action("Getcboroom", "MasterData")',
+        type: 'POST',
+        data: obj,  
+        dataType: 'json',
+        success: function (data) {
+            $('#roomname').empty();
+            $('#roomname').append(new Option('NA', ''));
+            $.each(data.clsRooms, (index,value) => {
+                    $('#roomname').append(new Option(value.roomname, value.roomid));
+            })          
+            $('#roomname').val(room_id);
+        } 
+    });
+}
+    // Function Disable button
+    function disablebtn(value){
+        $('#createdate').prop('disabled', value)
+        $('#createuid').prop('disabled', value)
+        $('#roomtype').prop('disabled', value)
+        $('#roomname').prop('disabled', value)
+        $('#fullpricepermonth').prop('disabled', value)
+        $('#priceperday').prop('disabled', value)
+        $('#fullpriceperday').prop('disabled', value)
+        $('#pricepermonth').prop('disabled', value)
+    }
+    // Button Add
+    $('#btn-add').click(() => {
+        roomtype = $('roomtype').val()
+        dataroomtypecbo(roomtype);
+        dataroomcbo("","")
+        change_modal("Create", true)
+        cleardata_input(true);
+         disablebtn(false)     
+        action = "PostPrice";
+        msg = "Added";
+    });
+    //Function Clear Data
+    function cleardata_input(value) {
+        if (value) {
+            $('#roomname').empty().append(new Option("NA", ""));
+            $('#roomtype').empty().append(new Option("NA", ""));
+            $('.needs-validation')[0].reset();
+        } else {
+            $('#roomname').empty().append(new Option("NA", ""));
+            $('#fullpricepermonth').val("");
+            $('#fullpriceperday').val("");
+            $('#priceperday').val("");
+            $('#pricepermonth').val("");
+            $('#roomtype').val("");
+            $('#roomname').val("");
+        }
+    }    
+    // Function postdata input 
+    function postdata_input(){
+        objroom = {}
+        objroom.roomid = $('#roomname').val();
+        objroom.fullprice_month = $('#fullpricepermonth').val();
+        objroom.fullprice_day = $('#fullpriceperday').val();
+        objroom.fullper_day = $('#priceperday').val();
+        objroom.fullper_month = $('#pricepermonth').val();
+        objroom.priceid = priceid
+
+    }
+    // Function Postdata
+    function Postdata(action, msg) {
+        postdata_input();
+        console.log(objroom)
+        $.post(`/Price/${action}`, { obj: objroom }, (data) => {
+            if (data.errcode == 1) {
+                $('#idfrmprice').modal('hide');
+                cleardata_input(true);
+                Alertmsg(msg);             
+                getdata();
+                action = "";
+            } else if (data.errcode == 0) {
+                $('#msg-roomerr').modal("show")
+            }
+        });
+
+    }
+   
+</script>

@@ -1,0 +1,248 @@
+﻿  <!-- Google Fonts -->
+<link href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="~/lib/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="~/lib/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="~/lib/lib/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="~/lib/lib/quill/quill.snow.css" rel="stylesheet">
+<link href="~/lib/lib/quill/quill.bubble.css" rel="stylesheet">
+<link href="~/lib/lib/remixicon/remixicon.css" rel="stylesheet">
+<link href="~/lib/lib/simple-datatables/style.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="~/css/Admin.css" rel="stylesheet">
+<section class="section dashboard">
+    <div class="row">  
+                <!-- Room Available Card -->
+                <div class="col-sm-4  ">
+                    <div class="card info-card sales-card">                 
+                        <div class="card-body">
+                            <h5 class="card-title">Room Available <span>| Today</span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-house-add"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>145</h6>
+                                    <span class="text-success small pt-1 fw-bold">50%</span> <span class="text-muted small pt-2 ps-1">VIP</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div> 
+                <!-- Payment Card -->
+                <div class="col-sm-4 ">
+                    <div class="card info-card revenue-card">
+
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Filter</h6>
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">Today</a></li>
+                                <li><a class="dropdown-item" href="#">This Month</a></li>
+                                <li><a class="dropdown-item" href="#">This Year</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Payment <span>| This Month</span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-credit-card"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>$3,264</h6>
+                                    <span class="text-success small pt-1 fw-bold">50%</span> <span class="text-muted small pt-2 ps-1">VIP</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Total Bed Card -->
+                <div class="col-sm-4">
+                    <div class="card info-card bed-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Total Bed <span>| This Year</span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-bed"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>100</h6>
+                                    <span class="text-success small pt-1 fw-bold">50%</span> <span class="text-muted small pt-2 ps-1">VIP</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div> 
+                <!-- Tenant and Occupied Room Card -->
+                <div class="col-sm-4">
+                <!-- Tenant  Card -->
+                    <div class="card info-card customers-card">
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Filter</h6>
+                                </li>
+
+                                <li><a class="dropdown-item listdate" data-value= "2" href="#">Today</a></li>
+                                <li><a class="dropdown-item listdate" data-value="1" href="#">This Month</a></li>
+                                <li><a class="dropdown-item listdate" data-value="3" href="#">This Year</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Tenant <span id="titleTenant_Date">| This Month</span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6 id="numTenant">1244</h6>
+                                    <span class="text-success small pt-1 fw-bold" id="percentTenant">50%</span> <span class="text-muted small pt-2 ps-1" id="titleRoomName">VIP</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                <!-- Occupied Room Card -->
+                <div class="card info-card occupied-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Occupied Room <span>| Today</span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-house-dash"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>100</h6>
+                                    <span class="text-success small pt-1 fw-bold">50%</span> <span class="text-muted small pt-2 ps-1">VIP</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Booking Recenlty -->
+                <div class="col-sm-8">
+                    <div class="card recent-sales overflow-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Recent Booking <span>| Year</span></h5>
+
+                            <table class="table table-borderless datatable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Student ID</th>
+                                        <th scope="col">Room Name</th>
+                                        <th scope="col">Due</th>
+                                        <th scope="col">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="recent_Book">
+                                    <tr>
+                                        <th scope="row"><a href="#">#2457</a></th>
+                                        <td>Brandon Jacob</td>
+                                        <td><a href="#" class="text-primary">At praesentium minu</a></td>
+                                        <td>$64</td>
+                                        <td><span class="badge bg-success">Approved</span></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Bar Char -->
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bar Booking</h5>
+
+                            <!-- Bar Chart -->
+                            <canvas id="barChart" style="max-height: 400px; display: block; box-sizing: border-box; height: 199px; width: 399px;" width="599" height="299"></canvas>
+                            <script>
+                                document.addEventListener("DOMContentLoaded", () => {
+                                    new Chart(document.querySelector('#barChart'), {
+                                        type: 'bar',
+                                        data: {
+                                            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','October','November','December'],
+                                            datasets: [{
+                                                label: 'Bar Chart',
+                                                data: [65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40],
+                                                backgroundColor: [
+                                                    'rgba(255, 99, 132, 0.2)',
+                                                    'rgba(255, 159, 64, 0.2)',
+                                                    'rgba(255, 205, 86, 0.2)',
+                                                    'rgba(75, 192, 192, 0.2)',
+                                                    'rgba(54, 162, 235, 0.2)',
+                                                    'rgba(153, 102, 255, 0.2)',
+                                                    'rgba(201, 203, 207, 0.2)',
+                                                    'rgba(255, 99, 132, 0.2)',
+                                                    'rgba(255, 159, 64, 0.2)',
+                                                    'rgba(255, 205, 86, 0.2)',
+                                                    'rgba(75, 192, 192, 0.2)',
+                                                    'rgba(54, 162, 235, 0.2)',
+                                                    'rgba(153, 102, 255, 0.2)',
+                                                    'rgba(201, 203, 207, 0.2)'
+                                                ],
+                                                borderColor: [
+                                                    'rgb(255, 99, 132)',
+                                                    'rgb(255, 159, 64)',
+                                                    'rgb(255, 205, 86)',
+                                                    'rgb(75, 192, 192)',
+                                                    'rgb(54, 162, 235)',
+                                                    'rgb(153, 102, 255)',
+                                                    'rgb(201, 203, 207)',
+                                                    'rgb(255, 99, 132)',
+                                                    'rgb(255, 159, 64)',
+                                                    'rgb(255, 205, 86)',
+                                                    'rgb(75, 192, 192)',
+                                                    'rgb(54, 162, 235)',
+                                                    'rgb(153, 102, 255)',
+                                                    'rgb(201, 203, 207)'
+                                                ],
+                                                borderWidth: 1
+                                            }]
+                                        },
+                                        options: {
+                                            scales: {
+                                                y: {
+                                                    beginAtZero: true
+                                                }
+                                            }
+                                        }
+                                    });
+                                });
+                            </script>
+                            <!-- End Bar CHart -->
+
+                        </div>
+                    </div>
+
+                </div>
+    </div>
+</section>
+<script src="~/js/dashboard.js"></script>
+<script src="~/lib/lib/chart.js/chart.umd.js"></script>
+<script src="~/lib/lib/chart.js/chart.js"></script>

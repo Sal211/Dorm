@@ -1,0 +1,741 @@
+﻿@model Dormitory_System.Models.ClsBooking;
+<style>
+    div.dataTables_wrapper div.dataTables_length select {
+        width: 50%;
+        display: inline-block;
+    }
+
+    table tbody tr.selected td {
+        background-color: gray !important;
+        color: #fff;
+    }
+
+    table tbody td:last-child {
+        text-align: center;
+    }
+</style>
+<div class="container" id="main">
+    <div class="row">
+        <div class="col-sm-12">     
+            <h5>
+                Booking Room
+            </h5>
+        </div>
+    </div>
+    <hr />
+    <div class="d-flex align-items-center ">
+         
+            <div>Start Date : </div>
+            <div class="ms-1"><input type="date" id="filter_startdate" class="form-control"/></div>
+            <div class="ms-2">End Date : </div>
+            <div class="ms-1"><input type="date" id="filter_enddate" class="form-control" /></div>
+            <div class="ms-3"><button class="btn btn-outline-info" id="clear_filter"><i class="fa-solid fa-filter"></i> Clear</button></div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-12 ">
+            <button class="btn btn-outline-info"  data-toggle="modal" id="add">Add Booking</button>
+        </div>
+    </div>
+    <hr />
+    <div class="table-responsive ">
+        <div class="row ">
+            <div class="col-sm-12">
+                <table class=" table table-striped table-bordered nowrap" style="width:100%" id="tbbooking">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Student ID</th>
+                            <th>Room Name</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                            <th>Tution Due</th>
+                            <th>Status</th>
+                            <th>Command</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+</div>
+<div class="container rounded p-4 shadow-lg  d-none" id="insert_booking">
+    <div class="row mb-3">
+    <div class="col">
+        <div class="d-flex justify-content-between align-items-center">
+            <h5><span id="title"></span>  Booking</h5>
+            <button class="btn btn-outline-info p2" id="back"><i class="fas fa-arrow-left" style="font-size: 25px;"></i></button>
+        </div>
+        <hr>
+        <div class="d-flex findcus ">
+            <input type="text" class="form-control me-2 w-25" id="txtid" placeholder="Enter ID">
+            <button class="btn btn-outline-info" id="find"><i class="fa-solid fa-magnifying-glass"></i> Find</button>
+            
+        </div>
+            <hr class="findcus">
+        <form class="form_booking" >
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="stuid" class="form-label"><i class="fas fa-user"></i> Student ID:</label>
+                        <input type="text" id="stuid" class="form-control" readonly>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="tenant_type" class="form-label"><i class="fa-solid fa-file-contract me-1"></i>Tenant Type:</label>
+                        <select class="form-select" id="tenant_type">
+                            <option value="0">Multi-tenant</option>
+                            <option value="1">Single-tenant</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="roomType" class="form-label">  <i class="fa-solid fa-house"></i> Room Type:</label>
+                        <select class="form-select" id="roomType" required>
+                            <option value="">NA</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="roomName" class="form-label"><i class="fas fa-bed"></i> Room Name:</label>
+                        <select class="form-select" id="roomName" required>
+                            <option value="">NA</option>
+                        </select>
+                    </div>                            
+                    <div class="row" style="padding: 10px 50px;">
+                        <hr class="mt-2" />
+                        <div class="col-md-6">
+                            <label for="startDate" class="form-label"><i class="fas fa-calendar-alt"></i> Start Date:</label>
+                            <input type="date" class="form-control" id="startDate" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="endDate" class="form-label"><i class="fas fa-calendar-alt"></i> End Date:</label>
+                            <input type="date" class="form-control" id="endDate" required>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <label for="startTime" class="form-label"><i class="fas fa-clock"></i> Start Time:</label>
+                            <input type="time" class="form-control" id="startTime" required>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <label for="endTime" class="form-label"><i class="fas fa-clock"></i> End Time:</label>
+                            <input type="time" class="form-control" id="endTime" required>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <label for="tuitionFee" class="form-label"><i class="fas fa-dollar-sign"></i> Tuition Fee:</label>
+                            <input type="text" class="form-control" id="tuitionFee" required>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <label for="discount" class="form-label"><i class="fas fa-percentage"></i> Discount(%):</label>
+                            <input type="text" class="form-control" id="discount">
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <label for="tuitionDue" class="form-label"><i class="fas fa-hand-holding-usd"></i> Tuition Due:</label>
+                            <input type="text" class="form-control fw-" id="tuitionDue" readonly>
+                        </div>
+                    </div>                   
+                    <hr>
+                    <div class="row justify-content-end">
+                        <div class="col-auto">
+                            <button class="btn btn-primary me-2" type="submit"><i class="fas fa-check-circle me-1"></i> Save</button>
+                            <button class="btn btn-danger" type="button" id="btn-cancel"><i class="fas fa-broom me-1"></i> Clear</button>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+</div>
+@* Modal Detail*@ 
+<div class="modal fade" id="booking_detail" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Booking Detail</h5>
+                <button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form >
+                    <div class="row">
+                       <div class="col-4">
+                           <span>Student ID</span>
+                            <input type="text" class="form-control" id="detail_stuid" readonly />
+                       </div>
+                       <div class="col-4">
+                           <span>Student Name </span>
+                            <input type="text" class="form-control" id="detail_stuname" readonly />
+                       </div>
+                        <div class="col-4">
+                            <span>Customer Type </span>
+                            <input type="text" class="form-control" id="detail_custype" readonly />
+                        </div>
+                        <div class="col-4">
+                            <span>Room Type </span>
+                            <input type="text" class="form-control" id="detail_roomtype" readonly />
+                        </div>
+                        <div class="col-4">
+                            <span>Room Name </span>
+                            <input type="text" class="form-control" id="detail_roomname" readonly />
+                        </div>
+                        <div class="col-4">
+                            <span> Status</span>
+                            <input type="text" class="form-control" id="detail_status" readonly />
+                        </div>
+                    </div>
+                    <hr class="mt-2" />
+                    <div class="row" style="padding: 0px 50px;">
+                        <div class="col-6">
+                            <span> Start Time</span>
+                            <input type="text" class="form-control" id="detail_starttime" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> End Time</span>
+                            <input type="text" class="form-control" id="detail_endtime" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Start Date</span>
+                            <input type="text" class="form-control" id="detail_startdate" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> End Date</span>
+                            <input type="text" class="form-control" id="detail_enddate" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Tuition Due</span>
+                            <input type="text" class="form-control" id="detail_tuitiondue" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Tuition Paid</span>
+                            <input type="text" class="form-control" id="detail_tuitionpaid" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Discount</span>
+                            <input type="text" class="form-control" id="detail_discount" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Tenant Type</span>
+                            <input type="text" class="form-control" id="detail_tenant_type" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Create UID</span>
+                            <input type="text" class="form-control" id="detail_createuid" readonly />
+                        </div>
+                        <div class="col-6">
+                            <span> Create Date</span>
+                            <input type="text" class="form-control" id="detail_createdate" readonly />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+ @* Alert Success*@
+<div class="modal fade" id="msg-success" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-check" style="font-size: 50px; color: green;"></i></div>
+                <div style="font-size: 20px; color: green;">SUCCESS!</div>
+                <p style="font-size: 14px;">You Have Added Successfully!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+@* Alert Not Found*@
+<div class="modal fade" id="msg-notfound" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-regular fa-face-frown-open" style="font-size: 50px; color: red;"></i></div>
+                <div style="font-size: 20px; color: red;">Customer Not Found</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@* Alert delete*@
+<div class="modal fade" id="msg-delete" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-exclamation" style="font-size: 50px; color: red;"></i></div>
+                <div style="font-size: 20px; color: red;">Are you Sure!</div>
+                <p style="font-size: 14px;">Do you really want to delete this record!</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger " id="delete">Delete</button>
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal" id="cancel">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    // Data Table
+    var objbooking = {}
+    var Roomdata = []
+    var custype = 0;
+    var month = 0;
+    var priceday = 0;
+    var pricemonth = 0;
+    var tranid = 0;
+    var roomid = 0;
+    var tenant_type = 0;
+    $('#tbbooking').DataTable({
+        data: Roomdata,
+        columns: [
+            {
+                render: function (data, type, full, meta) { return meta.row + 1; }
+            },
+            { data: "studentid" },
+            { data: "roomname" },
+            { data: "startdate", render: function (data, type, full) { return formatdate(true, data); }},
+            { data: "enddate",  render: function (data, type, full) { return formatdate(true, data); }},
+            { data: "tuitiondue" },
+            { data: "str_ispaid", render: function (data) { return '<span style="color : red" id="btn-paid">' + data + '</span>' } },
+            {
+                render: function (data, type, full) {
+                    return '<a href="#" onclick="remove(' + full.roomid + ')"><i class="fa fa-trash" style="color: red;"></i></a>' +
+                        '<a href="#" class="edit"><i class="fa-solid fa-pen-to-square" style="color: green; margin-left: 8px;"></i></a>' +
+                        '<a href="#" class="detail"><img src="/img/detail.png" style="width: 17px;margin-left: 8px; "/></a>';
+                }
+            },
+        ]
+    });
+  
+    $('#add').click((e)=>{
+        e.preventDefault();
+        EnableBook(true)
+          
+        $('#btn-cancel').html('<i class="fas fa-broom me-1"></i> Clear')
+         $('#btn-cancel').click(()=>{
+            cleardata_input(true)
+         })
+        $('.findcus').removeClass("d-none")
+        $('#title').text("")
+    })
+
+    // Menu Booking
+    function calculateTuitionFee() {
+        var startDate = new Date($('#startDate').val());
+        var endDate = new Date($('#endDate').val());
+        var startYear = startDate.getFullYear();
+        var startMonth = startDate.getMonth();
+        var startDay = startDate.getDate();
+        var endYear = endDate.getFullYear();
+        var endMonth = endDate.getMonth();
+        var endDay = endDate.getDate();
+        var tuitionFee = parseFloat($('#tuitionFee').val());
+        var discount = parseFloat($('#discount').val());
+        var tenant_type = $('#tenant_type').val()
+        if (startDate > endDate) {
+            alert("Start date cannot be later than end date.");
+            cleardata_input(false)
+            return;
+        }
+        
+      
+        $.get('@Url.Action("GetPrice", "MasterData")', { roomid: $('#roomName').val() }, data => {
+            console.log(data)
+             priceday = tenant_type == 1 ? data.clsPrices[0].fullprice_day : data.clsPrices[0].fullper_day
+             pricemonth = tenant_type == 1 ? data.clsPrices[0].fullprice_month : data.clsPrices[0].fullper_month
+
+            var diffYears = endYear - startYear;
+            var diffMonths = endMonth - startMonth;
+            var diffDays = endDay - startDay;
+            if (diffMonths < 0) {
+                diffYears--;
+                diffMonths += 12;
+            }
+
+            if (diffDays < 0) {
+                var monthDays = new Date(endYear, endMonth, 0).getDate();
+                diffMonths--;
+                diffDays += monthDays;
+            }
+
+            tuitionFee = diffDays * priceday + diffMonths * pricemonth
+            if (isNaN(tuitionFee)) {
+                tuitionFee = 0
+            }
+
+            $('#tuitionFee').val(tuitionFee.toFixed(2));
+            $('#tuitionDue').val(tuitionFee.toFixed(2));
+
+        })
+   
+        
+    }
+
+    $('#startDate, #endDate, #roomName').on('input', calculateTuitionFee);
+
+    $('#tuitionFee, #discount').on('keypress', function (event) {
+        var inputValue = event.which;
+        var value = $(this).val()
+        if ((value.includes('.') || value.includes(',')) && (inputValue === 46 || inputValue === 44) || value.length > 10 || !((inputValue >= 48 && inputValue <= 57) || inputValue === 46 || inputValue === 44)) {
+            event.preventDefault();
+        }
+    });
+    $('#tuitionFee, #discount').on('input', function (event) {
+        var discount = $('#discount').val()
+        var tuitionFee = $('#tuitionFee').val()
+
+        if (discount > 100) {
+            $('#discount').val(100);
+            discount = 100;
+        }
+
+        if (!isNaN(discount) && discount >= 0 && discount <= 100 && !isNaN(tuitionFee)) {
+            var tuitionDue = tuitionFee - (tuitionFee * discount) / 100;
+        } else {
+            var tuitionDue = tuitionFee;
+        }
+
+        $('#tuitionDue').val(tuitionDue.toFixed(2));
+    });
+
+    $('#tenant_type').change(() => {
+        dataroomtypecbo("");
+
+        cleardata_input(false);
+    })
+    // Find student
+    $('#find').click((e) => {
+          e.preventDefault();
+            $.post('@Url.Action("FindCustomer", "MasterData")', { stuid : $('#txtid').val() }, data => {
+            if (data.errcode == 1) {                       
+                cleardata_input(false);
+                disablebtn(false)
+                action = "PostBooking";
+                msg = "insert";
+                $('#txtid').val("")
+                dataroomtypecbo("");
+                custype = data.clsBookings[0].customertype;       
+                  $('#stuid').val(data.clsBookings[0].studentid);
+            } else if (data.errcode == 0) {
+                $('#txtid').val("")
+                 cleardata_input(true)                
+                $('#msg-notfound').modal('show');
+                close('#msg-notfound');
+            }
+        });
+    })
+    // Button Back
+    $('#back').click(() => {  
+        EnableBook(false)
+    })
+              
+    var table = $('#tbbooking').DataTable();
+    var id = 0;
+    var cusid = 0;
+
+    // Function Alert Message
+    var action = "", msg = "";
+
+    function Alertmsg(msg) {
+        const iconClass = msg == 'Edit' ? 'fa-pen-to-square' : 'fa-circle-check';
+        const messageText = msg == 'Edit' ? 'Edited' : 'Added';
+
+        $('#msg-success i').removeClass().addClass('fa-solid').addClass(iconClass);
+        $('#msg-success span').text(messageText);
+        $('#msg-success').modal("show")
+        if (msg == 'insert') {
+            $('#btn-close').trigger('click');
+        }
+    }
+
+    // Submit Data
+    $('.form_booking').submit(function (event) {
+        event.preventDefault();
+        if (this.checkValidity() === false) { 
+            event.stopPropagation();
+        } else {
+            Postdata(action, msg);
+        }
+    })
+
+    //Detail
+    $('#tbbooking').on('click', '.detail', function () {
+        var a = $(this).parent().parent();
+        console.log(a)
+        var index = table.row(a).index()
+        var data = table.row(index).data();       
+        close('#booking_detail')
+
+        $('#booking_detail').modal('show');
+
+        getdata_input_detail(data)
+    })
+   
+    // Functiom format date and time 
+    function formatdate(type, data) {
+       var datadate =  type ? data.split('T')[0] : data.split('T')[1]
+        return datadate;
+    }
+    // Function Get data Input Detail
+    function getdata_input_detail(data) {
+        var tenanttype = data.ternant_type == 0 ? "Multi-Tenant" : "Single-Tenant";
+        $('#detail_roomname').val(data.roomname)
+        $('#detail_stuid').val(data.studentid)
+        $('#detail_startdate').val(data.format_startdate)
+        $('#detail_starttime').val(data.format_starttime)
+        $('#detail_enddate').val(data.format_enddate)
+        $('#detail_endtime').val(data.format_endtime)
+        $('#detail_tuitiondue').val(data.tuitiondue)
+        $('#detail_tenant_type').val(tenanttype)
+        $('#detail_roomtype').val(data.roomtype)
+        $('#detail_discount').val(data.discount)
+        $('#detail_tuitionpaid').val(data.tuitionpaid)
+        $('#detail_status').val(data.str_ispaid)
+        $('#detail_stuname').val(data.studentname)
+        $('#detail_custype').val(data.custype)
+        $('#detail_createdate').val(data.createdate)
+        $('#detail_createuid').val(data.createuid)
+    }
+    var temp_RoomName = ""
+    // Function Getdata Input
+    function getdata_input(data) {
+        var tuitionfee = data.tuitiondue + data.tuitiondue * data.discount/100  
+        temp_RoomName = data.roomname
+        $('#roomName').val(data.roomid)
+        $('#stuid').val(data.studentid)
+        $('#startDate').val(formatdate(true, data.startdate))
+        $('#startTime').val(formatdate(false, data.starttime))
+        $('#endDate').val(formatdate(true, data.enddate))
+        $('#endTime').val(formatdate(false, data.endtime))
+        $('#tuitionDue').val(data.tuitiondue)
+        $('#tenant_type').val(data.ternant_type)
+        $('#roomType').val(data.roomtypeid)
+        $('#discount').val(data.discount)
+        $('#tuitionFee').val(tuitionfee.toFixed(2))
+    }
+
+    // Get Data CBO roomtype
+    function dataroomtypecbo(value) {
+        $.get('@Url.Action("Getcboroomtype", "MasterData")', data => {
+            $('#roomType').empty();
+            $('#roomType').append(new Option("NA", ""))
+            for (var i = 0; i < data.clsRoomTypes.length; i++) {
+                $('#roomType').append(new Option(data.clsRoomTypes[i].roomtype, data.clsRoomTypes[i].roomtypeid));
+            }
+            $('#roomType').val(value)
+        });
+    }
+
+    //function getdata combo box room
+    $('#roomType').change(function () {
+        dataroomcbo($(this).val(), "", $('#tenant_type').val())
+        cleardata_input(false);
+    });
+
+    function dataroomcbo(roomtype_id, room_id,tenant_type) {
+        var obj = {}
+        obj.roomid = room_id;
+        obj.roomtypeid = roomtype_id
+        obj.ternant_type = tenant_type
+        console.log(obj)
+        $.ajax({
+            url: '@Url.Action("Getcboroom_booking", "MasterData")',
+            type: 'GET',
+            data: obj,
+            success: function (data) {
+                $('#roomName').empty();
+                $('#roomName').append(new Option("NA", ""))
+                for (var i = 0; i < data.clsRooms.length; i++) {
+                    $('#roomName').append(new Option(data.clsRooms[i].roomname, data.clsRooms[i].roomid));                 
+                }
+                $('#roomName').val(room_id)
+                if ($('#roomName').find(':selected').text() == "") {
+                    $('#roomName').append(new Option(temp_RoomName, room_id)).val(room_id)
+                }
+            
+            },
+
+        });
+    }
+    // Clear Filter
+    $('#clear_filter').click(()=>{
+        $('#filter_startdate').val("");
+        $('#filter_enddate').val("");
+        getdata();
+    })
+    // Filter Date
+  
+    var filterroom = []
+    $('#filter_startdate,#filter_enddate').on('input', () => {        
+        if ($('#filter_enddate').val() !== "" && $('#filter_startdate').val() !== "") {
+            console.log("H1")
+            filterroom = Roomdata.filter(function (room) {
+                var startDate = new Date(room.startdate);
+                startDate.setHours(0, 0, 0, 0);
+                var endDate = new Date(room.enddate);
+                var filterStartDate = new Date($('#filter_startdate').val())
+                filterStartDate.setHours(0, 0, 0, 0);
+                var filterEndDate = new Date($('#filter_enddate').val() )
+               
+                return startDate >= filterStartDate && endDate <= filterEndDate;               
+            });
+      
+            table.clear().rows.add(filterroom).draw();
+        }else{
+            console.log("H2")
+            table.clear().rows.add(Roomdata).draw();
+        }
+    });
+
+    // close
+    function close(name) {
+        $('.close-modal').each(function () {
+            $(this).click(() => {
+                id = 0;
+                $(name).modal('hide');
+            });
+        });
+    }   
+    // Detail
+
+    // Function Disable button
+    function disablebtn(value) {
+        $('#roomType').prop('disabled', value);
+        $('#tenant_type').prop('disabled', value);
+    }
+    // Function Enable Booking
+    function EnableBook(type) {
+        if (type) {
+            $('#insert_booking').removeClass('d-none')
+            $('#main').addClass('d-none')
+        }else{
+            $('#insert_booking').addClass('d-none')
+            $('#main').removeClass('d-none')
+        }
+    }
+    // Edit Data
+    $('#tbbooking').on('click', '.edit', function (e) {
+        var a = $(this).parent().parent();
+        var index = table.row(a).index()
+        var data = table.row(index).data();
+        e.preventDefault();
+        console.log(a)
+
+        console.log(index)
+        tranid = data.tranid
+        EnableBook(true)
+        $('.findcus').addClass("d-none")
+        $('#title').text("Edit")
+        disablebtn(true)
+        getdata_input(data)
+
+     
+        dataroomtypecbo(data.roomtypeid);
+        dataroomcbo(data.roomtypeid, data.roomid,data.tenant_type)
+        $('#btn-cancel').html('<i class="fa-solid fa-x"></i> Cancel')
+        $('#btn-cancel').click(() => {
+            EnableBook(false)
+        })
+        action = "UpdateBooking";
+        msg = "Edit";
+    })
+
+    //Function Clear Data
+    function cleardata_input(value) {
+        if (value) {
+            $('#roomName').empty().append(new Option("NA", ""));
+            $('#roomType').empty().append(new Option("NA", ""));
+            $('.form_booking')[0].reset();
+        } else {
+            $('#roomName').empty().append(new Option("NA", ""));
+            $('#roomName').val("");
+            $('#startDate').val("");
+            $('#startTime').val("");
+            $('#endDate').val("");
+            $('#endTime').val("");
+            $('#tuitionDue').val("");
+            $('#tuitionFee').val("");
+            $('#discount').val("");
+        }
+    }
+
+    // Function postdata input
+    function postdata_input() {
+        objbooking = {}
+        objbooking.tranid = tranid;
+        objbooking.roomid = $('#roomName').val()
+        objbooking.studentid = $('#stuid').val();
+        objbooking.startdate = $('#startDate').val();
+        objbooking.starttime = $('#startTime').val();
+        objbooking.enddate = $('#endDate').val();
+        objbooking.endtime = $('#endTime').val();
+        objbooking.tuitiondue = $('#tuitionDue').val();
+        objbooking.custype = custype;
+        objbooking.month = month;
+        objbooking.ternant_type = $('#tenant_type').val();
+        objbooking.discount = $('#discount').val()
+    }
+    // Function Postdata, msg) {
+       
+    function Postdata(action) { 
+    postdata_input();
+        console.log(objbooking)
+        $.post(`/Booking/${action}`, { obj: objbooking }, (data) => {
+            if (data.errcode == 1) {
+                msg == 'Edit' ? EnableBook(false) : EnableBook(true)
+                 Alertmsg(msg);
+                getdata();
+                action = "";
+                cleardata_input(true)
+            } 
+        });
+
+    }
+
+    // Get Data
+    getdata();
+    function getdata() {
+        $.ajax({
+             url: '@Url.Action("GetBooking", "Booking")',
+            type: "GET",
+            dataType: "JSON",
+            success: function (data) {
+      
+                Roomdata = data.clsBookings;
+                table.clear().rows.add(Roomdata).draw();
+
+            }
+        })
+
+    }
+    // Delete Data
+
+    function remove(roomid) {
+        $('#msg-delete').modal('show');
+        close('#msg-delete');
+        $('#delete').click(() => {
+            $.post('@Url.Action("DeleteBooking", "Booking")', { id: roomid }, data => {
+                if (data.errcode == 1) {
+                    $('#cancel').trigger("click")
+                    getdata();
+                }
+            });
+        });
+    }
+    // click bg
+    $('#tbbooking').on('click', 'tr', function () {
+            $(this).toggleClass('selected');
+        $('#tbbooking tr').not(this).removeClass('selected');
+    });
+ 
+   
+</script>

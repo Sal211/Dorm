@@ -1,0 +1,474 @@
+﻿ 
+<style>
+    div.dataTables_wrapper div.dataTables_length select {
+        width: 50%;
+        display: inline-block;
+    }
+
+    table tbody tr.selected td {
+        background-color: gray !important;
+        color: #fff;
+    }
+
+    table tbody td:last-child {
+        text-align: center;
+    }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h5>
+               Create Room
+            </h5>
+        </div>
+    </div>
+    <hr />
+    <div class="row">      
+        <div class="col-sm-12">
+            <button class="btn btn-outline-info" data-target="#idfrmroom" data-toggle="modal" id="add">Add Room</button>
+        </div>
+    </div>
+    <hr />
+    <div class="table-responsive ">
+        <div class="row">
+            <div class="col-sm-12">
+                <table class=" table table-striped table-bordered nowrap" style="width:100%" id="tbroom">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Room Type</th>
+                            <th>Room Name</th>
+                            <th>Floor</th>
+                            <th>Bed</th>
+                            <th>Capacity</th>
+                            <th>Command</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+</div>
+@*MOdal Insert*@
+<div class="modal fade" id="idfrmroom" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Create Room Type</h5>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validate" novalidate>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <span>Room Name :</span>
+                            <input type="text" class="form-select" id="roomname" required/>
+                            <div class="invalid-feedback">
+                                Please Input Room Name!!!
+                            </div>
+                             <span>Floor :</span>
+                            <input type="text" class="form-control w-75" id="floor" required/>
+                            <div class="invalid-feedback">
+                                Please Input Floor!!!
+                            </div>
+                            <span>Capacity :</span>
+                            <input type="text" class="form-control w-75" id="capacity" required />
+                            <div class="invalid-feedback">
+                                Please Input capacity!!!
+                            </div>
+                            <span>Bed :</span>
+                            <input type="text" class="form-control w-75" id="bed" required />
+                            <div class="invalid-feedback">
+                                Please Input Bed!!!
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <span>Room Type</span>
+                            <select class="form-control" id="roomtype" required>Choose Type</select>
+                            <div class="invalid-feedback">
+                                Please Input Room type!!!
+                            </div>
+                            <span>Note : </span>
+                             <textarea id="note" cols="29" rows="6" class="form-control"></textarea>
+                            
+                        </div>
+                    </div>
+                    <hr />
+                    <button type="submit" class="btn btn-primary close-modal">Save </button>
+                    <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal" id="close">Close</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@*MOdal Update*@
+<div class="modal fade" id="idfrmroom_update" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Edit Room </h5>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validate-update" novalidate>
+                    <div class="row">
+                        <div class="col-sm-6 justify-content-center">
+                            <span>Room Name :</span>
+                            <input type="text" class="form-control" id="uroomname" required />
+                            <div class="invalid-feedback">
+                                Please Input Room Name!!!
+                            </div>
+                            <span>Floor :</span>
+                            <input type="text" class="form-control w-75" id="ufloor" required />
+                            <div class="invalid-feedback">
+                                Please Input Floor!!!
+                            </div>
+                            <span>Capacity :</span>
+                            <input type="text" class="form-control w-75" id="ucapacity" required />
+                            <div class="invalid-feedback">
+                                Please Input capacity!!!
+                            </div>
+                            <span>Bed :</span>
+                            <input type="text" class="form-control w-75" id="ubed" required />
+                            <div class="invalid-feedback">
+                                Please Input Bed!!!
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <span>Room Type</span>
+                            <select class="form-control" id="uroomtype" required>Choose Type</select>
+                            <div class="invalid-feedback">
+                                Please Input Room type!!!
+                            </div>
+                            <span>Note : </span>
+                            <textarea id="unote" cols="29" rows="6" class="form-control"></textarea>
+
+                        </div>
+                    </div>
+                    <hr />
+                    <button type="submit" class="btn btn-primary close-modal">Save </button>
+                    <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal" id="close">Close</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@*MOdal Detail*@
+<div class="modal fade" id="idfrmroom_detail" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Room Detail</h5>
+                <button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validate-detail" novalidate>
+                    <div class="row">
+                        <div class="col-sm-6 justify-content-center">
+                            <span>Room Name :</span>
+                            <input type="text" class="form-control" id="droomname" readonly />
+                           
+                            <span>Floor :</span>
+                            <input type="text" class="form-control w-75" id="dfloor" readonly />
+                            
+                            <span>Capacity :</span>
+                            <input type="text" class="form-control w-75" id="dcapacity" readonly />
+                             
+                            <span>Bed :</span>
+                            <input type="text" class="form-control w-75" id="dbed" readonly />
+                             
+                            <span>Create UID : </span>
+                            <input type="text" class="form-control" id="cuid" readonly />
+                        </div>
+                        <div class="col-sm-6">
+                            <span>Room Type</span> 
+                            <input type="text" class="form-control" id="droomtype" readonly />
+                            <span>Note : </span>
+                            <textarea id="dnote" cols="29" rows="6" class="form-control" readonly></textarea>
+                            <span>Create Date :</span>
+                            <input type="text" class="form-control" id="cdate" readonly />
+                        </div>
+                    </div>
+                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Alert Success*@
+<div class="modal fade" id="msg-success" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-check" style="font-size: 50px; color: green;"></i></div>
+                <div style="font-size: 20px; color: green;">SUCCESS!</div>
+                <p style="font-size: 14px;">You Have Added Successfully!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Alert Edit*@
+<div class="modal fade" id="msg-edit" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-pen-to-square" style="font-size: 50px; color : green;"></i></div>
+                <div style="font-size: 20px; color : green;">SUCCESS!</div>
+                <p style="font-size: 14px">You Have Edited Successfully!</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Ok</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+@* Alert delete*@
+<div class="modal fade" id="msg-delete" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-exclamation" style="font-size: 50px; color: red;"></i></div>
+                <div style="font-size: 20px; color: red;">Are you Sure!</div>
+                <p style="font-size: 14px;">Do you really want to delete this record!</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger " id="delete">Delete</button>
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal" id="cancel">Cancel</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="msg-roomerr" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-regular fa-face-frown-open" style="font-size: 50px; color: red;"></i></div>
+                <div style="font-size: 20px; color: red;">RoomType Have Already!!!</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+
+ <script type="text/javascript">
+ 
+    var Roomdata = []
+    $('#tbroom').DataTable({
+        data: Roomdata,
+        columns: [
+            {
+                render: function (data, type, full, meta) { return meta.row + 1; }
+            },
+        { data: "roomtype" },
+        { data: "roomname" },
+        { data: "floor" },
+        { data: "bed" },
+        { data: "capacity" },
+        {
+            render: function (data, type, full) {
+            return '<a href="#" onclick="remove(' + full.roomid + ')"><i class="fa fa-trash" style="color: red;"></i></a>' +
+            '<a href="#" class="edit"><i class="fa-solid fa-pen-to-square" style="color: green; margin-left: 8px;"></i></a>' +
+            '<a href="#" class="detail"><img src="/img/detail.png" style="width: 17px;margin-left: 8px; "/></a>' ;
+            }
+        },
+        ]
+        });
+        var table=$('#tbroom').DataTable();
+        var id=0;
+        var roomid=0;
+        close
+        function close(name) {
+        $('.close-modal').each(function () {
+        $(this).click(()=>
+     {
+                    id = 0;
+                    $(name).modal('hide');
+                });
+            });
+        }
+        // Get Data CBO roomtype
+        $('#add').click(() => {
+            alert(1)
+            dataroomtypecbo(1, 1);
+        });
+
+        function dataroomtypecbo(num, name) {
+            $.get('@Url.Action("Getcboroomtype", "MasterData")', data => {
+
+                if (num == 1) {
+                    $('#roomtype').empty();
+
+                    for (var i = 0; i < data.clsRoomTypes.length; i++) {
+                        $('#roomtype').append(new Option(data.clsRoomTypes[i].roomtype, data.clsRoomTypes[i].roomtypeid));
+                    }
+                } else if (num == 0) {
+                    $('#uroomtype').empty();
+                    alert(name)
+                    for (var i = 0; i < data.clsRoomTypes.length; i++) {
+                        $('#uroomtype').append(new Option(data.clsRoomTypes[i].roomtype, data.clsRoomTypes[i].roomtypeid));
+                    }
+                    $('#uroomtype').val(name);
+                }
+            });
+        }
+
+        // Get Data
+
+        getdata();
+        function getdata() {
+            $.ajax({
+                url: '/Room/GetRoom',
+                type: "GET",
+                dataType: "JSON",
+                success: function (data) {
+                    console.log(data);
+                    Roomdata = data.clsRooms;
+                    table.clear().rows.add(Roomdata).draw();
+
+                }
+            })
+
+        }
+        // Delete Data
+
+        function remove(roomid) {
+            $('#msg-delete').modal('show');
+            id = roomid
+            close('#msg-delete');
+            $('#delete').click(() => {
+                $.post('@Url.Action("DeleteRoom", "Room")', { id: id }, data => {
+                    if (data.errcode == 1) {
+                        $('#cancel').trigger("click")
+                        getdata();
+                    }
+                });
+            });
+        }
+        // click bg
+        $('#tbroom').on('click', 'tr', function () {
+            $(this).toggleClass('selected');
+            $('#tbroom tr').not(this).removeClass('selected');
+        });
+        // Detail
+        $('#tbroom').on('click', '.detail', function () {
+            var a = $(this).parent().parent();
+            console.log(a)
+            var index = table.row(a).index()
+            var data = table.row(index).data();
+            close('#idfrmroom_detail')
+            $('#idfrmroom_detail').modal('show');
+
+            $('#droomname').val(data.roomname);
+            $('#droomtype').val(data.roomtype);
+            $('#dfloor').val(data.floor);
+            $('#dcapacity').val(data.capacity);
+            $('#dbed').val(data.bed);
+            $('#dnote').val(data.note);
+            $('#cuid').val(data.createuid);
+            $('#cdate').val(data.formatdate);
+            roomid = 0;
+            roomid = data.roomid;
+        })
+        // Edit
+
+        $('#tbroom').on('click', '.edit', function () {
+            var a = $(this).parent().parent();
+            console.log(a)
+            var index = table.row(a).index()
+            var data = table.row(index).data();
+            close('#idfrmroom_update')
+            $('#idfrmroom_update').modal('show');
+
+            $('#uroomname').val(data.roomname);
+            console.log(data.roomtypeid)
+            dataroomtypecbo(0, data.roomtypeid)
+            $('#ufloor').val(data.floor);
+            $('#ucapacity').val(data.capacity);
+            $('#ubed').val(data.bed);
+            $('#unote').val(data.note);
+            roomid = 0;
+            roomid = data.roomid;
+        })
+
+        // Post
+        var objroom = {}
+        $('.needs-validate').submit(function (event) {
+            event.preventDefault();
+            if (this.checkValidity() === false) {
+                event.stopPropagation();
+            } else {
+                objroom = {}
+                objroom.roomtypeid = $('#roomtype').val();
+                objroom.roomname = $('#roomname').val();
+                objroom.floor = $('#floor').val();
+                objroom.capacity = $('#capacity').val();
+                objroom.note = $('#note').val();
+                objroom.bed = $('#bed').val();
+                $.post('@Url.Action("PostRoom", "Room")', { obj: objroom },
+                    data => {
+                        if (data && data.errcode === 1) {
+                            $('#close').trigger('click')
+                            $('#msg-success').modal('show');
+                            getdata();
+                            close('#msg-success');
+                            $('.needs-validate')[0].reset();
+                        } else if (data.errcode == 0) {
+                            alert("Hello")
+                            $('#btn-close').trigger("click")
+                            $('#msg-roomerr').modal("show")
+                        }
+                    });
+            }
+            $(this).addClass('was-validated');
+        });
+        //update
+        $('.needs-validate-update').submit(function (event) {
+            event.preventDefault();
+            if (this.checkValidity() === false) {
+                event.stopPropagation();
+            } else {
+                objroom = {}
+                objroom.roomtypeid = $('#uroomtype').val();
+                objroom.roomname = $('#uroomname').val();
+                objroom.floor = $('#ufloor').val();
+                objroom.capacity = $('#ucapacity').val();
+                objroom.note = $('#unote').val();
+                objroom.bed = $('#ubed').val();
+                objroom.roomid = roomid
+                $.post('@Url.Action("UpdateRoom", "Room")', { obj: objroom }, data => {
+                    if (data.errcode == 1) {
+                        $('#idfrmroom_update').modal('hide')
+                        $('#msg-edit').modal('show');
+                        getdata();
+                        close('#msg-edit');
+                        } else if (data.errcode == 0) {
+                            $('#btn-close').trigger("click")
+                            $('#msg-roomerr').modal("show")
+                        }
+                }
+                );
+            }
+
+            $(this).addClass('was-validated');
+        });
+   
+
+</script>

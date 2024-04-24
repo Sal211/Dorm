@@ -1,0 +1,39 @@
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\appsettings.Development.json
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\appsettings.json
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\Dormitory System.staticwebassets.runtime.json
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\Dormitory System.exe
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\Dormitory System.deps.json
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\Dormitory System.runtimeconfig.json
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\Dormitory System.dll
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\Dormitory System.pdb
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AIB-C#\Dormitory System\Dormitory System\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.csproj.AssemblyReference.cache
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.GeneratedMSBuildEditorConfig.editorconfig
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.AssemblyInfoInputs.cache
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.AssemblyInfo.cs
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.csproj.CoreCompileInputs.cache
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.MvcApplicationPartsAssemblyInfo.cache
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.RazorAssemblyInfo.cache
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.RazorAssemblyInfo.cs
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\staticwebassets.build.json
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\staticwebassets.development.json
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\staticwebassets\msbuild.Dormitory System.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\staticwebassets\msbuild.build.Dormitory System.props
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Dormitory System.props
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Dormitory System.props
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\staticwebassets.pack.json
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\scopedcss\bundle\Dormitory System.styles.css
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\scopedcss\projectbundle\Dormitory System.bundle.scp.css
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.csproj.CopyComplete
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.dll
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\refint\Dormitory System.dll
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.pdb
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\Dormitory System.genruntimeconfig.cache
+D:\AIB-C#\Dormitory System\Dormitory System\obj\Debug\net7.0\ref\Dormitory System.dll

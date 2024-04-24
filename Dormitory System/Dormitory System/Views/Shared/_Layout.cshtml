@@ -1,0 +1,237 @@
+﻿@* @using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+ *@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Dormitory System</title>
+     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="~/css/stylesheet.css" rel="stylesheet" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional: Bootstrap theme CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-theme.min.css">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    @* Link modal *@
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional: Bootstrap theme CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-theme.min.css">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
+
+@*     sweetalert*@    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="#">DBMS</a>
+                    <div id="close-sidebar">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="sidebar-header">
+                    <div class="user-pic">
+                        <img class="img-responsive img-rounded" src="/img/img_20230811_233505-removebg-preview.png"
+                             alt="User picture">
+                    </div>
+                    <div class="user-info">                             
+                            <span class="user-role">Rithy Sokvisal</span>                     
+                        <span class="user-status">
+                            <i class="fa fa-circle"></i>
+                            <span>Online</span>
+                        </span>
+                    </div>
+                </div>
+                <!-- sidebar-header  -->
+
+                <div class="sidebar-menu">
+                    <ul>
+                        
+                        <li>
+                            <a asp-action="ViewDashboad" asp-controller="Dashboard">
+                                <i class="fa-solid fa-border-all"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-action="ViewCustomer" asp-controller="Customer">
+                                <i class="fa fa-user"></i>
+                                <span>Customer Profile</span>
+                            </a>
+                        </li>
+
+                  
+                        <li>
+                            <a asp-action="ViewRoomType" asp-controller="RoomType">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Room Type</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a>
+                                <i class="fa-solid fa-bed"></i>
+                                <span>Room</span>
+                            </a>
+                            <ul class="sidebar-submenu">
+                                <li>
+                                    <a asp-action ="ViewRoom" asp-controller="Room">
+                                        <i class="fa-solid fa-circle-plus"></i>
+                                        <span>Create Room</span>
+                                     </a>
+                                </li>
+
+                                <li>
+                                    <a asp-action="ViewAvailableRoom" asp-controller="Room">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Available Room</span>
+                                     </a>
+                                </li>
+                                <li>
+                                    <a asp-action ="ViewUsingRoom" asp-controller="Room">
+                                        <i class="fa-solid fa-hourglass-start"></i>
+                                        <span>Using Room</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a asp-action="ViewPrice" asp-controller="Price">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Price Setting</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-action="ViewBooking" asp-controller="BOoking">
+                                <i class="fa fa-calendar"></i>
+                                <span>Booking Room</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-action=" " asp-controller=" ">
+                                <i class="fa fa-file-invoice"></i>
+                                <span>Report</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-action=" " asp-controller=" ">
+                                <i class="fa-solid fa-door-open"></i>
+                                <span>Logout</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+             
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+            <div class="container-fluid">
+                @RenderBody()
+            </div>
+        </main>
+        <!-- page-content" -->
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script type="text/javascript">
+
+        $(".sidebar-dropdown > a").click(function () {
+            $(".sidebar-submenu").slideUp(200);
+            if (
+                $(this)
+                    .parent()
+                    .hasClass("active")
+            ) {
+                $(".sidebar-dropdown").removeClass("active");
+                $(this)
+                    .parent()
+                    .removeClass("active");
+            } else {
+                $(".sidebar-dropdown").removeClass("active");
+                $(this)
+                    .next(".sidebar-submenu")
+                    .slideDown(200);
+                $(this)
+                    .parent()
+                    .addClass("active");
+            }
+        });
+        $("#close-sidebar").click(function () {
+            $(".page-wrapper").removeClass("toggled");
+        });
+        $("#show-sidebar").click(function () {
+            $(".page-wrapper").addClass("toggled");
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

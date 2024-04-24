@@ -1,0 +1,286 @@
+﻿ <style>
+     div.dataTables_wrapper div.dataTables_length select {
+         width: 50%;
+         display: inline-block;
+     }
+
+     table tbody tr.selected td {
+         background-color: gray !important;
+         color: #fff;
+     }
+      table tbody td:last-child{
+          text-align : center;
+      }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h5>
+                RoomType
+             </h5>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="btn btn-outline-info" data-target="#idfrmroom" id="btn-add" data-toggle="modal">Add RoomType</button>
+        </div>
+    </div>
+    <hr />
+    <div class="table-responsive ">
+        <div class="row">
+            <div class="col-sm-12">
+                <table class=" table table-striped table-bordered nowrap" style="width:100%" id="tbroomtype">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Room Type</th>
+                            <th>Description</th>                                                                        
+                            <th>Create UID</th>
+                            <th>Create Date</th>
+                            <th>Command</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr />
+  
+</div>
+
+@*MOdal Insert*@
+<div class="modal fade" id="idfrmroom" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-md modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h5 class="modal-title">Create Room Type</h5>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validate"  >
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div>RoomType :</div>
+                            <div class="mt-3">Description :</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div>
+                                <input type="text" class="form-control" id="roomtype" required />
+                         
+                            </div>
+                            <div class="mt-3">
+                                <textarea id="description" cols="29" rows="4" class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>
+                        <button type="submit" class="btn btn-primary close-modal">Save </button>
+                        <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal" id="btn-close">Close</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+    </div>
+</div>
+ 
+@* Alert Success*@
+<div class="modal fade" id="msg-success" tabindex="-1" role="dialog"  >
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-check" style="font-size: 50px; color: green;"></i></div>
+                <div style="font-size: 20px; color: green;">SUCCESS!</div>
+                <p style="font-size: 14px;">You Have <span>Added</span> Successfully!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="msg-roomerr" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-regular fa-face-frown-open" style="font-size: 50px; color: red;"></i></div>
+                <div style="font-size: 20px; color: red;">RoomType Have Already!!!</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+@* Alert delete*@
+<div class="modal fade" id="msg-delete" tabindex="-1" role="dialog"  >
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body text-center">
+                <div><i class="fa-solid fa-circle-exclamation" style="font-size: 50px; color: red;"></i></div>
+                <div style="font-size: 20px; color: red;">Are you Sure!</div>
+                <p style="font-size: 14px;">Do you really want to delete this record!</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger "  id="delete">Delete</button>
+                <button type="button" class="btn btn-primary close-modal" data-dismiss="modal" id="cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+ <script type="text/javascript">
+    // Data Table
+        var Roomdata = []
+        $('#tbroomtype').DataTable({
+            data: Roomdata,
+            columns: [
+                {
+                    render: function (data, type, full, meta) { return meta.row + 1; }
+                },
+
+                { data: "roomtype" },
+                { data: "description" },     
+                { data: "createuid" },
+                { data: "formatdate" },
+                {            
+                    render: function (data, type, full) {
+                        return '<a href="#" onclick="remove(' + full.roomtypeid + ')"><i class="fa fa-trash" style="color: red;"></i></a>' +
+                            '<a href="#" class="edit"><i class="fa-solid fa-pen-to-square" style="color: green; margin-left: 8px;"></i></a>';
+                        
+                    }
+                },
+
+            ]
+        });
+        var table = $('#tbroomtype').DataTable();
+        var id = 0;
+         var roomid = 0;
+        // close
+        function close(name) {
+            $('.close-modal').each(function () {
+                $(this).click(() => {
+                    id = 0;
+                    $(name).modal('hide');
+                });
+            });
+        }
+    $('#roomtype').on('keypress', function (event) {
+        var inputValue = event.which;
+
+        if (!(inputValue >= 65 && inputValue <= 90) && !(inputValue >= 97 && inputValue <= 122)) {
+            event.preventDefault();
+        }
+    });
+         // Get Data
+   
+        getdata();
+        function getdata() {
+            $.get('@Url.Action("GetRoomType", "RoomType")', data => {
+                console.log(data)
+                Roomdata = data.clsRoomTypes;
+                table.clear().rows.add(Roomdata).draw();
+            });
+        }
+
+         // Delete Data
+
+    function remove(roomtypeid) {
+        $('#msg-delete').modal('show');
+        id = roomtypeid;
+        close('#msg-delete');
+        $('#delete').click(() => {
+            $('#delete').click(() => {
+                $.post('@Url.Action("DeleteRoomType", "RoomType")', { id: id }, data => {
+                    if (data.errcode == 1) {
+                        $('#cancel').trigger("click");
+                        getdata();
+                    }
+                });
+            });
+        })
+    }
+
+            // click bg
+        $('#tbroomtype').on('click', 'tr', function () {
+                $(this).toggleClass('selected');       
+            $('#tbroomtype tr').not(this).removeClass('selected');
+        });
+ 
+    // Form Post Data
+    var action = "", msg = "";
+
+    function Alertmsg(msg) {
+        const iconClass = msg == 'Edit' ? 'fa-pen-to-square' : 'fa-circle-check';
+        const messageText = msg == 'Edit' ? 'Edited' : 'Added';
+
+        $('#msg-success i').removeClass().addClass('fa-solid').addClass(iconClass);
+        $('#msg-success span').text(messageText);
+        $('#msg-success').modal("show")
+        if (msg == 'insert') {
+            $('#btn-close').trigger('click');
+        }
+    }
+     
+    $('#idfrmroom').on('submit', '.needs-validate', function (event) {
+        event.preventDefault();     
+        if (this.checkValidity() === false) {
+            event.stopPropagation();
+        } else {
+            Postdata(action, msg);
+        }
+    });
+
+    $('#tbroomtype').on('click', '.edit', function () {
+        var a = $(this).parent().parent();
+        var index = table.row(a).index()
+        var data = table.row(index).data();
+      console.log(a)
+      console.log(index)
+        $('#idfrmroom').modal('show');
+ 
+        $('#roomtype').val(data.roomtype);
+        $('#description').val(data.description);
+        roomid = data.roomtypeid;
+
+        action = "UpdateRoomType";
+        msg = "Edit";
+    });
+  
+
+ 
+    $('#btn-add').click(() => {
+ 
+        action = "PostRoomType";
+        msg = "insert";
+    });
+
+    function Postdata(action, msg) {
+       
+       
+        objroomtype = {};
+        objroomtype.roomtype = $('#roomtype').val().trim();
+        objroomtype.description = $('#description').val().trim();
+        objroomtype.roomtypeid = roomid;
+
+        $.post(`/RoomType/${action}`, { obj: objroomtype }, (data) => {
+      
+            if (data.errcode == 1) {
+                $('#idfrmroom').modal('hide');
+                Alertmsg(msg);
+                getdata();
+                action = "";
+                $('.needs-validate')[0].reset()
+            } else if (data.errcode == 0) {        
+                $('#btn-close').trigger("click")
+                $('#msg-roomerr').modal("show")
+            }
+        });
+
+    }
+
+         
+</script>

@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Dormitory_System
+build_property.RootNamespace = Dormitory_System
+build_property.ProjectDir = D:\AIB-C#\Dormitory System\Dormitory System\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\AIB-C#\Dormitory System\Dormitory System
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Booking/ViewBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xWaWV3Qm9va2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Customer/ViewCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcVmlld0N1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Dashboard/ViewDashboad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFZpZXdEYXNoYm9hZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Login/Viewlogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVmlld2xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Price/ViewPrice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2VcVmlld1ByaWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/RoomType/ViewRoomType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVR5cGVcVmlld1Jvb21UeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Room/ViewAvailableRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxWaWV3QXZhaWxhYmxlUm9vbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Room/ViewRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxWaWV3Um9vbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Room/ViewUsingRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxWaWV3VXNpbmdSb29tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AIB-C\#/Dormitory System/Dormitory System/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-iamtftig64
